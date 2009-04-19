@@ -1,0 +1,11 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: "A unique look at where US troops have been since 1950: almost everywhere. "
+datesummarized: !timestamp 2008-08-26T16:32:19-0700
+guid: e59a7c2b4a60fc13d4daeca49324bc1c5b0b9a7a
+seed: http://motherjones.com/military-maps/
+shelf: motherjones.com
+title: Interactive map on US troop levels around the world since 1950
+uri: http://motherjones.com/military-maps/
+worthwhile: true

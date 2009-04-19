@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-11-09T04:13:44-0800
+offset: 
+products: 
+- :uri: http://davebirss.wordpress.com/2008/11/06/the-brain-experiment-that-went-wrong/
+  :biasedperson: delano
+  :title: The brain experiment that went wrong
+  :datesummarized: !timestamp 2008-11-09T04:13:43-0800
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: "A man discovers the debility of constant decision making. "
+  :guid: bf680343435dc1527d9e1975ef160390068c996b
+readonly: false
+timespan: day
+worthycount: 0

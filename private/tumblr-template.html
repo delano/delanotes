@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <!-- DEFAULT COLORS -->
+        <meta name="color:Background" content="#eee"/>
+        <meta name="color:Content Background" content="#fff"/>
+        <meta name="color:Title" content="#444"/>
+        <meta name="color:Description" content="#666"/>
+        <meta name="color:Post Title" content="#c00"/>    
+        <meta name="color:Text" content="#444"/>
+        <meta name="color:Inline Link" content="#c00"/>
+        <meta name="color:Quote" content="#666"/>
+        <meta name="color:Quote Source" content="#444"/>
+        <meta name="color:Link Post" content="#c00"/>
+        <meta name="color:Conversation Background" content="#f8f8f8"/>
+        <meta name="color:Conversation Border" content="#ddd"/>
+        <meta name="color:Conversation Text" content="#444"/>
+        <meta name="color:Conversation Label" content="#111"/>
+        <meta name="color:Photo Border" content="#eee"/>
+        <meta name="color:Date" content="#fff"/>
+        <meta name="color:Date Background" content="#ccc"/>
+        <!-- END DEFAULT COLORS -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>{Title}{block:PostTitle} - {PostTitle}{/block:PostTitle}</title>
+        <link rel="icon" href="{Favicon}"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/>
+        <meta name="verify-v1" content="IWzWo/Ytd2j+tGtM+2Ebl69Oa3on0ZJr0X4epPNlXMI=" />
+        <meta name="viewport" content="width=775"/> <!-- iPhone -->
+
+        <style type="text/css">
+
+
+
+
+body {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#container {
+	width: 782px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+pre {
+	background-color: #000;
+	color: #FC0;
+	padding: 10px;
+
+}
+
+
+#header {
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	min-height: 190px;
+	margin-top: 10px;
+}
+div#header div.imgsx {
+	float: left;
+	width: 128px;
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+div#header div.imgsx img{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+div#header h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 3.1em;
+	text-align: left;
+	margin: 0px;
+	padding-left: 150px;
+	font-weight: bold;
+	letter-spacing: -0.08em;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	line-height: 1em;
+}
+div#header div.description {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.6em;
+	padding: 10px;
+	width: 160px;
+	color: #000000;
+	text-transform: uppercase;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #666666;
+	border-bottom-color: #666666;
+	margin-top: 15px;
+}
+div#header h1 a {
+	color: #000000;
+	text-decoration: none;
+}
+div#header ul {
+	margin: 0px;
+	padding-left: 150px;
+	list-style-type: none;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.4em;
+	font-weight: normal;
+	letter-spacing: -0.1em;
+	line-height: 0.9em;
+}
+div#header li a {
+	color: #666666;
+	text-decoration: none;
+        font-size: 70%;
+        font-weight:lighter;
+	letter-spacing: 0em;
+	line-height: 0.5em;
+	text-transform: lowercase;
+   
+}
+div#header li a:hover, div#header h1 a:hover {
+	color: #666666;
+	text-decoration: none;
+}
+div#content {
+	padding-left: 150px;
+	text-align: left;
+	margin-top: 20px;
+}
+div.normal-text, div.photo, div.quote, div.conversation, div.audio, div.video, div.link {
+	position: relative;
+	margin-bottom: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+div#content a, div#footer a, div.description a{
+	color: #C00;
+	text-decoration: underline;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+div#content a:hover, div#footer a:hover, div.description a:hover{
+	color: #f00;
+	text-decoration: underline;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+div.sidedate {
+	position: absolute;
+	left: -150px;
+	width: 128px;
+	top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3.5em;
+	font-weight: bold;
+	color: #CCCCCC;
+	font-variant: small-caps;
+	line-height: 1em;
+	display: block;
+	vertical-align: top;
+        text-align: right;
+}
+div.sidedate label span{
+	font-size: 25%;
+	float: right;
+	background-color: #000000;
+	font-weight: normal;
+	color: #FFFFFF;
+	width: 48px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px; 
+        margin-left: 5px;
+	line-height: 1.1em;
+	padding-bottom: 10px;
+        text-align: left;
+
+}
+div.postnote {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 0.8em;
+	text-align: right;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border-top: 1px dotted #666666;
+}
+div.normal-text h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.3em;
+	letter-spacing: -0.1em;
+	margin: 0px;
+	font-weight: normal;
+	text-transform: uppercase;
+margin-bottom:20px;
+}
+div.normal-text p, div.link p, div.photo p, div.quote p, div.audio p, div.video p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.1em;
+}
+div.link h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	letter-spacing: -0.07em;
+	margin: 0px;
+	font-weight: normal;
+	text-transform: lowercase;
+}
+div.photo blockquote, div.normal-text blockquote, div.link blockquote, div.video blockquote, div.audio blockquote, div.quote p blockquote {
+	font-family: Arial, Helvetica, sans-serif;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #666666;
+	margin-left: 20px;
+	padding-left: 5px;
+	margin-right: 5px;
+	padding-right: 5px;
+}
+div.photo a img {
+	border: 6px solid #F0F0F0;
+	padding: 1px;
+}
+div.photo a img:hover {
+	border: 6px solid #E9E9E9;
+	background-color: #000000;
+}
+div.quote h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 0.9em;
+	text-transform: lowercase;
+	font-style: italic;
+}
+div.quote h3 span {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+div.conversation h2 {
+	letter-spacing: -0.1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.8em;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #000000;
+
+}
+div.conversation ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #000000;
+	padding: 0px;
+	list-style-type: none;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+div.conversation li {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+
+}
+div.conversation li.odd {
+	background-color: #EBEBEB;
+
+}
+div.conversation li.even {
+	background-color: #F7F7F7;
+
+}
+h4.pages {
+	text-align: right;
+	margin: 0px;
+	font-size: 3.6em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #CCCCCC;
+	letter-spacing: -0.08em;
+}
+h4.pages span{
+	font-size: 0.4em;
+	text-transform: lowercase;
+	margin: 0px;
+	letter-spacing: -0.05em;
+
+}
+div#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	border-left-width: 128px;
+	border-left-style: solid;
+	border-left-color: #000000;
+	text-align: left;
+	padding-left: 22px;
+	color: #999999;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+div#footer span {
+	margin-right: 20px;
+}
+html* div.sidedate label span{
+	margin-top: 10px;
+	width: 60px;
+	padding-top: 6px;
+
+}
+            
+            {CustomCSS}
+        </style>
+
+        <!--[if lt IE 7]>
+
+        <![endif]-->
+    </head>
+    <body>
+
+        <div id="container">
+         <div id="header">
+           <div class="imgsx">
+            <a href="/" title="{Title}">
+            <img border="0" src="{PortraitURL-128}" alt="{Title}"/>
+            <img border="0" src="{PortraitURL-64}" alt="{Title}"/>
+            <img border="0" src="{PortraitURL-40}" width="32" height="32" alt="{Title}"/>
+            <img border="0" src="{PortraitURL-40}" width="32" height="32" alt="{Title}"/>
+            <img border="0" src="{PortraitURL-40}" width="32" height="32" alt="{Title}" />
+            <img border="0" src="{PortraitURL-16}" alt="{Title}"/>
+            <img border="0" src="{PortraitURL-16}"  alt="{Title}"/>
+            <img border="0" src="{PortraitURL-16}" alt="{Title}" />
+            <img border="0" src="{PortraitURL-16}" alt="{Title}" />
+            </a>
+           </div>
+          <h1><a href="/">{Title}</a></h1>
+          <div class="description">
+            {Description}
+          </div>
+          <ul>
+           <li><a href="http://delanotes.com/">delanotes.com</a></li>
+           <li><a href="/archive">Archive</a></li>
+           <li><a href="/mobile">Mobile</a></li>
+           <li><a href="{RSS}">RSS</a></li>
+          </ul>
+       </div>
+
+        <div id="content">
+            
+            {block:Posts}
+        
+              {block:Regular}
+                <div class="normal-text">
+                 {block:Title}<h2><a href="{Permalink}" style="color: #000; text-decoration: none;">{Title}</a></h2>{/block:Title}
+                     {Body}
+                 <div class="sidedate">
+                        {block:NewDayDate}
+                            <label><span>{ShortMonth}<br />{Year}</span>{DayOfMonth}</label> 
+                        {/block:NewDayDate}
+                    
+                        {block:SameDayDate}
+                            <label><span>{12HourWithZero}:{Minutes}<br />{AmPm}</span></label>
+                        {/block:SameDayDate}               
+                  </div>
+                  <div class="postnote">
+                  by {PostAuthorName}, tagged as: {TagsAsClasses} 
+                  {block:RebloggedFrom} - Reblog from <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+                  </div>
+                </div>
+                {/block:Regular}
+    
+                    {block:Photo}
+                        <div class="photo">
+                            {LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>{LinkCloseTag}
+                            {block:Caption}
+                                <p>{Caption}</p>
+                            {/block:Caption}
+                        <div class="sidedate">
+                        {block:NewDayDate}
+                            <label><span>{ShortMonth}<br />{Year}</span>{DayOfMonth}</label> 
+                        {/block:NewDayDate}
+                    
+                        {block:SameDayDate}
+                            <label><span>{12HourWithZero}:{Minutes}<br />{AmPm}</span></label>
+                        {/block:SameDayDate}               
+                        </div>
+                      <div class="postnote">
+                      <a href="{Permalink}">Photo</a> tagged as: {TagsAsClasses} 
+                      {block:RebloggedFrom} - Reblog from <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+                      </div>
+                    </div>
+                    {/block:Photo}
+                    
+                    {block:Quote}
+                        <div class="quote">
+                            <h3><span>&#8220;</span> {Quote}</h3>
+                            {block:Source}<p>{Source}</p>{/block:Source}
+                        <div class="sidedate">
+                        {block:NewDayDate}
+                            <label><span>{ShortMonth}<br />{Year}</span>{DayOfMonth}</label> 
+                        {/block:NewDayDate}
+                    
+                        {block:SameDayDate}
+                            <label><span>{12HourWithZero}:{Minutes}<br />{AmPm}</span></label>
+                        {/block:SameDayDate}               
+                        </div>
+                        <div class="postnote">
+                            <a href="{Permalink}">Quote</a> tagged as: {TagsAsClasses} 
+                          {block:RebloggedFrom} - Reblog from <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+                        </div>
+                      </div>
+                    {/block:Quote}
+                    
+                    {block:Link}
+                        <div class="link">
+                            <h2><a href="{URL}" class="link" {Target}>{Name}</a></h2>
+                            {block:Description}
+                                <p>{Description}</p>
+                            {/block:Description}
+                            <div class="sidedate">
+                        {block:NewDayDate}
+                            <label><span>{ShortMonth}<br />{Year}</span>{DayOfMonth}</label> 
+                        {/block:NewDayDate}
+                    
+                        {block:SameDayDate}
+                            <label><span>{12HourWithZero}:{Minutes}<br />{AmPm}</span></label>
+                        {/block:SameDayDate}               
+                        </div>
+                        <div class="postnote">
+                            <a href="{Permalink}">Link</a> tagged as: {TagsAsClasses} 
+                          {block:RebloggedFrom} - Reblog from <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+                        </div>
+                        </div>
+                    {/block:Link}
+                    
+                    {block:Conversation}
+                        <div class="conversation">
+                            {block:Title}<h2>{Title}</h2>{/block:Title}
+                            <ul>
+                                {block:Lines}
+                                    <li class="{Alt}">
+                                        {block:Label}<span class="label">{Label}</span>{/block:Label}
+                                        {Line}
+                                    </li>
+                                {/block:Lines}
+                            </ul>
+                          <div class="sidedate">
+                        {block:NewDayDate}
+                            <label><span>{ShortMonth}<br />{Year}</span>{DayOfMonth}</label> 
+                        {/block:NewDayDate}
+                    
+                        {block:SameDayDate}
+                            <label><span>{12HourWithZero}:{Minutes}<br />{AmPm}</span></label>
+                        {/block:SameDayDate}               
+                        </div>
+                        <div class="postnote">
+                            <a href="{Permalink}">Conversation</a> tagged as: {TagsAsClasses} 
+                          {block:RebloggedFrom} - Reblog from <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+                        </div>
+                        </div>
+                    {/block:Conversation}
+                    
+                    {block:Audio}
+                        <div class="audio">
+                            {AudioPlayerBlack}
+                            {block:Caption}
+                                <p>{Caption}</p>
+                            {/block:Caption}
+                          <div class="sidedate">
+                        {block:NewDayDate}
+                            <label><span>{ShortMonth}<br />{Year}</span>{DayOfMonth}</label> 
+                        {/block:NewDayDate}
+                    
+                        {block:SameDayDate}
+                            <label><span>{12HourWithZero}:{Minutes}<br />{AmPm}</span></label>
+                        {/block:SameDayDate}               
+                        </div>
+                        <div class="postnote">
+                            <a href="{Permalink}">Audio</a> tagged as: {TagsAsClasses} 
+                          {block:RebloggedFrom} - Reblog from <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+                        </div>
+                        </div>
+                    {/block:Audio}
+                    
+                    {block:Video}
+                        <div class="video">
+                            {Video-500}
+                            {block:Caption}
+                                <p>{Caption}</p>
+                            {/block:Caption}
+                          <div class="sidedate">
+                        {block:NewDayDate}
+                            <label><span>{ShortMonth}<br />{Year}</span>{DayOfMonth}</label> 
+                        {/block:NewDayDate}
+                    
+                        {block:SameDayDate}
+                            <label><span>{12HourWithZero}:{Minutes}<br />{AmPm}</span></label>
+                        {/block:SameDayDate}               
+                        </div>
+                        <div class="postnote">
+                            <a href="{Permalink}">Video</a> tagged as: {TagsAsClasses} 
+                          {block:RebloggedFrom} - Reblog from <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+                        </div>
+                        </div>
+                    {/block:Video}
+               
+            {/block:Posts}
+            
+            {block:IndexPage} 
+             <h4 class="pages">
+              <span>Page</span>{CurrentPage}<span>of</span>{TotalPages}
+              {block:PreviousPage}<span><a href="{PreviousPage}">&#8249; previous page</a></span>{/block:PreviousPage}  
+              {block:NextPage}<span><a href="{NextPage}">next page &#8250;</a></span>{/block:NextPage}
+             </h4>
+            {/block:IndexPage} 
+            </div>
+
+          <div id="footer">
+           <span><a href="http://www.tumblr.com">Tumblr</a> Powered</span> 
+           <span><a href="http://www.sid05.com">Sid05</a> Templated</span>
+          </div>
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4642735-6");
+pageTracker._trackPageview();
+</script>
+
+    </body>
+</html>

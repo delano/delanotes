@@ -1,0 +1,11 @@
+--- !ruby/object:Delanotes::Summary 
+author: "Brett Tabke "
+biasedperson: delano
+biasedsummary: "The first and likely only blog published within a robots.txt file. It's out of print now but it's still a good read for mostly internet business analysis (and SEO). It's also peppered with Steven Wright quotes. "
+datesummarized: !timestamp 2008-08-26T11:10:01-0700
+guid: 4a8207b3d00dc100c8a7161cc2c455798f337c56
+seed: http://webmasterworld.com/robots.txt
+shelf: webmasterworld.com
+title: THE BOT BLOG
+uri: http://webmasterworld.com/robots.txt
+worthwhile: true

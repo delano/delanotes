@@ -1,0 +1,11 @@
+--- !ruby/object:Delanotes::Summary 
+author: Ben Fry, Casey Reas
+biasedperson: delano
+biasedsummary: "\"Just dig the sounds... it's all freedom.\" -- Jimi Hendrix"
+datesummarized: 2008-08-07T01:15:32+00:00
+guid: 603f058121540d2fb8bfeb06cf11a5d50bbaf4f9
+seed: http://processing.org/
+shelf: processing.org
+title: Processing 1.0 (BETA)
+uri: http://processing.org/
+worthwhile: true

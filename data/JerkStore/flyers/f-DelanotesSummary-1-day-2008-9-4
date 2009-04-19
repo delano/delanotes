@@ -1,0 +1,75 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 8
+duration: 1
+notworthycount: 5
+now: !timestamp 2008-09-04T19:48:37-0700
+offset: 
+products: 
+- :uri: http://cracked.com/
+  :biasedsummary: Cracked makes Mad magazine look like the New Yorker.
+  :guid: 893867bed2cf11af56d76369e13f4f8543af8079
+  :biasedperson: delano
+  :title: "Cracked.com - Funny Website - America\xE2\x80\x99s Only Humor & Video Site Since 1958"
+  :datesummarized: !timestamp 2008-09-04T19:48:37-0700
+  :worthwhile: false
+  :author: ""
+- :uri: http://cracked.com/article_16614_terrifying-inevitable-future-advertising.html
+  :biasedsummary: "Cracked readers have poor Photoshop skills. "
+  :guid: f89ae8a573308183c62984dc3020b3399aab0e93
+  :biasedperson: delano
+  :title: The Terrifying (Inevitable) Future of Advertising
+  :datesummarized: 2008-10-03 16:42:36 -07:00
+  :worthwhile: false
+  :author: ""
+- :uri: http://detailingworld.co.uk/forum/showthread.php?t=79859
+  :biasedsummary: "An insanely detailed cleaning of a Lamborghini Gallardo. I learned what \"ne plus ultra\" means in practice. "
+  :guid: 05228aeb770bbadc311468cc5b3907f8da19318e
+  :biasedperson: delano
+  :title: "Polished Bliss: Lamborghini Gallardo  - Ne Plus Ultra (TM) - Detailing World"
+  :datesummarized: 2008-10-03 16:30:00 -07:00
+  :worthwhile: false
+  :author: Clark Aitken
+- :uri: http://vintagecomputing.com/index.php/archives/189
+  :biasedsummary: "This is a great example of independent sleuthing. The answer: a combination of UV radiation, heat, and oxygen reacts with various stabilizers used in the production of cheap plastics. "
+  :guid: 672d53a15662969930d08accc7f28473f37ecdd2
+  :biasedperson: delano
+  :title: "Why Super Nintendos Lose Their Color: Plastic Discoloration in Classic Machines"
+  :datesummarized: 2008-10-03 16:13:37 -07:00
+  :worthwhile: true
+  :author: Benj Edwards
+- :uri: http://trevorblackwell.com/busywork.html
+  :biasedsummary: Use high-level languages to write clean and malleable software. Use low-level languages to waste time (while thinking about code).
+  :guid: 1757db9b3fdc05808c8cbc287738fcabfd804f59
+  :biasedperson: delano
+  :title: The best qualities of high- and low-level languages
+  :datesummarized: 2008-10-03 15:53:25 -07:00
+  :worthwhile: false
+  :author: ""
+- :uri: http://trevorblackwell.com/founderstories.html
+  :biasedsummary: "Explains why entrepreneurial articles follow the model: \"I was doing something romantically appealing to my target market. As I reached the peak of achievement, I had an inspiration: make a product people will like.\""
+  :guid: ed2528137a84c2e3596528ed4913c001163e4152
+  :biasedperson: delano
+  :title: Founder Stories
+  :datesummarized: 2008-10-03 14:13:04 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://blog.plover.com/math/recorde.html
+  :biasedsummary: "It was a good idea to dig up original materials is because they are the ones that are so brilliant and penetrating and incisive that they inspired other people to follow them. There's also some interesting points on the history of the English language. "
+  :guid: ab1876a03b466728774fc183e5e26ae350976311
+  :biasedperson: delano
+  :title: "The Universe of Discourse : Robert Recorde invents the equals sign"
+  :datesummarized: 2008-10-03 13:41:37 -07:00
+  :worthwhile: true
+  :author: Mark Dominus
+- :uri: http://wired.com/politics/security/commentary/securitymatters/2008/09/securitymatters_0904
+  :biasedsummary: It might be possible to create fake identities by registering babies that don't exist.
+  :guid: 2206f994b503d4a91edac9a8e7092d7b25cb544e
+  :biasedperson: delano
+  :title: "Security Matters: How to Create the Perfect Fake Identity "
+  :datesummarized: 2008-10-03 13:29:09 -07:00
+  :worthwhile: false
+  :author: Bruce Schneier
+readonly: false
+timespan: day
+worthycount: 3

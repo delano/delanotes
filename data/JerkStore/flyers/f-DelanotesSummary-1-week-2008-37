@@ -1,0 +1,91 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 10
+duration: 1
+notworthycount: 2
+now: !timestamp 2008-09-14T15:25:51-0700
+offset: 
+products: 
+- :uri: http://nytimes.com/2006/08/20/sports/playmagazine/20federer.html?_r=2&ei=5070&en=3009eb4c6a95c033&ex=1156219200&adxnnl=1&adxnnlx=1156083518-PiJjJYGpeha7KJAk6qVUrQ&pagewanted=all&oref=slogin&oref=slogin
+  :biasedsummary: "\"Roger Federer is showing that the speed and strength of today\xE2\x80\x99s pro [tennis] game are merely its skeleton, not its flesh. He has, figuratively and literally, re-embodied men\xE2\x80\x99s tennis, and for the first time in years the game\xE2\x80\x99s future is unpredictable.\""
+  :guid: e4fc255d3018d6c5db0377bc584eb7f4c5d3b685
+  :biasedperson: delano
+  :title: Roger Federer as Religious Experience
+  :datesummarized: !timestamp 2008-09-14T15:25:51-0700
+  :worthwhile: true
+  :author: DAVID FOSTER WALLACE
+- :uri: http://stanfordalumni.org/news/magazine/1999/julaug/articles/condoms.html
+  :biasedsummary: "\"I learned that a markup of 150 percent doesn't mean much when you're only making 75 cents per item.\""
+  :guid: d78ce67f62fdb5f6eff10215b357d5d434208194
+  :biasedperson: delano
+  :title: How My Start-Up Failed
+  :datesummarized: 2008-10-13 08:27:40 -07:00
+  :worthwhile: false
+  :author: Robert L. Strauss
+- :uri: http://gapingvoid.com/Moveable_Type/archives/004670.html
+  :biasedsummary: "\"... the hard bit of having a \"good idea\" is not the invention of it, nor the selling of it to the end-user, but managing the myriad of politics and egos of the people who are supposedly on the same team as yourself.\""
+  :guid: 2cbc652753ff02e8864691b7abbc7d6fceb10560
+  :biasedperson: delano
+  :title: good ideas have lonely childhoods
+  :datesummarized: 2008-10-12 15:05:07 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://vinvesting.com/docs/munger/human_misjudgement.html
+  :biasedsummary: "A thorough overview of human judgement (and how it relates to economics) by a man who's made a lot of money with Warren Buffet. Also, read the book Influence by Bob Cialdini. "
+  :guid: 8b2f565c530369ddabf56a452e28fc26b509e8f6
+  :biasedperson: delano
+  :title: The Psychology of Human Judgement
+  :datesummarized: 2008-10-11 18:12:06 -07:00
+  :worthwhile: true
+  :author: Charlie Munger
+- :uri: http://theage.com.au/news/biztech/the-internets-dirty-little-secret/2008/09/11/1220857702243.html
+  :biasedsummary: "A sexist article about shopping on the internet while drinking. "
+  :guid: 0dabb06577a6e13918e7d9ca14901e1bf0f81419
+  :biasedperson: delano
+  :title: The internet's dirty little secret
+  :datesummarized: 2008-10-11 10:47:33 -07:00
+  :worthwhile: false
+  :author: ""
+- :uri: http://tuxdeluxe.org/node/285
+  :biasedsummary: "Seek out mentors and read other people's code. "
+  :guid: e898949aaceabbdf65a4581573466d155ab64e12
+  :biasedperson: delano
+  :title: Learning the craft (of programming)
+  :datesummarized: 2008-10-08 14:10:10 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://floozyspeak.com/blog/archives/2008/08/valley_of_the_t.html
+  :biasedsummary: "A reasonable overview of the motivations of people participating in Amazon's Mechanical Turk. "
+  :guid: ab66a093980aa4d8f109c278b9940b94bc03518e
+  :biasedperson: delano
+  :title: Valley of the Turks
+  :datesummarized: 2008-10-08 08:28:53 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://blog.wired.com/wiredscience/2008/09/invertebrate-as.html
+  :biasedsummary: "Water bears become space bears. "
+  :guid: e7b4d75ab0147acb0411dd9643c176883da192f7
+  :biasedperson: delano
+  :title: "Invertebrate Astronauts Make Space History "
+  :datesummarized: 2008-10-07 21:50:07 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://kungfugrippe.com/post/48588149/better
+  :biasedsummary: "The man who created 43 Folders gives us his plan for maintaining his \"A\" game. "
+  :guid: d8f13b5cc79297c44c079642c4abb659b0ee5a5c
+  :biasedperson: delano
+  :title: Better
+  :datesummarized: 2008-10-07 14:41:45 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://joelonsoftware.com/items/2005/11/18.html
+  :biasedsummary: "People connote low price with low quality and vice versa. Record companies can use this as leverage against artists. [ed: this article is 3 years old and Apple held out to maintain a single price]"
+  :guid: 67668c2395e08461665585f8cd86895740862d65
+  :biasedperson: delano
+  :title: Price as Signal
+  :datesummarized: 2008-10-07 09:30:09 -07:00
+  :worthwhile: true
+  :author: ""
+readonly: false
+timespan: week
+worthycount: 8

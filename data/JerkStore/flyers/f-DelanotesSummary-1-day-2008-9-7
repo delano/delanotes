@@ -1,0 +1,27 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 2
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-09-07T15:19:31-0700
+offset: 
+products: 
+- :uri: http://magnitudes.wordpress.com/2008/04/05/is-hell-exothermic-or-endothermic/
+  :biasedsummary: I love this proof!
+  :guid: 7bab3e97ef962f9f44b933a0785af752f0ed904b
+  :biasedperson: delano
+  :title: "Is Hell Exothermic or Endothermic? "
+  :datesummarized: !timestamp 2008-09-07T15:19:31-0700
+  :worthwhile: true
+  :author: ""
+- :uri: http://scobleizer.com/2008/09/06/startups-your-web-site-sucks/
+  :biasedsummary: "Some valid criticism wrapped in a hot air. "
+  :guid: f7960d8ce59a317d195ccaf935881556adbed4d1
+  :biasedperson: delano
+  :title: "Startups: your web site sucks"
+  :datesummarized: 2008-10-06 12:11:52 -07:00
+  :worthwhile: false
+  :author: ""
+readonly: false
+timespan: day
+worthycount: 1

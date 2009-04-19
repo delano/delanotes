@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-09-26T14:41:47-0700
+offset: 
+products: 
+- :uri: http://fitnr.com/archives/2008/09/thats-a-dilly-of-a-pickle.html
+  :biasedsummary: "Some obvious tips on how to resolve bugs identified by a customer: assign a tracking code; confirm the details of the issue; ask for and analyze data (i.e. logs); rule out or rule in possible causes; and have the data show where is the problem."
+  :guid: f6cb14041540ef8153eaf9a4c306a6b4effb8351
+  :biasedperson: delano
+  :title: "That's a Dilly of a Pickle "
+  :datesummarized: !timestamp 2008-09-26T14:41:47-0700
+  :worthwhile: false
+  :author: ""
+readonly: false
+timespan: day
+worthycount: 0

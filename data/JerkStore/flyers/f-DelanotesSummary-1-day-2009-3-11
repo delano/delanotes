@@ -1,0 +1,27 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 2
+duration: 1
+notworthycount: 0
+now: !timestamp 2009-03-11T04:49:14-0700
+offset: 
+products: 
+- :title: "Starting up with a\xC2\xA0friend"
+  :datesummarized: !timestamp 2009-03-11T04:49:13-0700
+  :worthwhile: true
+  :uri: http://danieltenner.com/posts/0005-starting-up-with-a-friend.html
+  :biasedsummary: "Be explicit and detailed. Write it down. Talk about the bad stuff. Be realistic about major problems. Don't assume things will get better over time. "
+  :guid: 980621a7e65fad4e36030112de479f4209be1ab9
+  :author: ""
+  :biasedperson: delano
+- :title: "CBC Archives: Just Watch Me, 1970 [video]"
+  :datesummarized: 2009-04-09 00:37:48 -07:00
+  :worthwhile: true
+  :uri: http://youtube.com/watch?v=XfUq9b1XTa0&playnext_from=PL&feature=PlayList&p=F775BB96C7F18C1A&playnext=1&index=34
+  :biasedsummary: "Pierre Trudeau: \"Just watch me\", the full interview."
+  :guid: df78e9814ff78901a1b33d5372f4c3b03b681841
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 2

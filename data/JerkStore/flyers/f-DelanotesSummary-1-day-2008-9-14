@@ -1,0 +1,27 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 2
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-09-14T15:25:51-0700
+offset: 
+products: 
+- :uri: http://nytimes.com/2006/08/20/sports/playmagazine/20federer.html?_r=2&ei=5070&en=3009eb4c6a95c033&ex=1156219200&adxnnl=1&adxnnlx=1156083518-PiJjJYGpeha7KJAk6qVUrQ&pagewanted=all&oref=slogin&oref=slogin
+  :biasedsummary: "\"Roger Federer is showing that the speed and strength of today\xE2\x80\x99s pro [tennis] game are merely its skeleton, not its flesh. He has, figuratively and literally, re-embodied men\xE2\x80\x99s tennis, and for the first time in years the game\xE2\x80\x99s future is unpredictable.\""
+  :guid: e4fc255d3018d6c5db0377bc584eb7f4c5d3b685
+  :biasedperson: delano
+  :title: Roger Federer as Religious Experience
+  :datesummarized: !timestamp 2008-09-14T15:25:51-0700
+  :worthwhile: true
+  :author: DAVID FOSTER WALLACE
+- :uri: http://stanfordalumni.org/news/magazine/1999/julaug/articles/condoms.html
+  :biasedsummary: "\"I learned that a markup of 150 percent doesn't mean much when you're only making 75 cents per item.\""
+  :guid: d78ce67f62fdb5f6eff10215b357d5d434208194
+  :biasedperson: delano
+  :title: How My Start-Up Failed
+  :datesummarized: 2008-10-13 08:27:40 -07:00
+  :worthwhile: false
+  :author: Robert L. Strauss
+readonly: false
+timespan: day
+worthycount: 1

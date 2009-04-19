@@ -1,0 +1,75 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 8
+duration: 1
+notworthycount: 2
+now: !timestamp 2009-03-06T22:46:49-0800
+offset: 
+products: 
+- :title: Coffee turns into vapor at -48F in Prudhoe Bay, Alaska [video]
+  :datesummarized: !timestamp 2009-03-06T22:46:48-0800
+  :worthwhile: false
+  :uri: http://youtube.com/watch?v=tfMBXVsjJYY
+  :biasedsummary: "I was expecting the vapor cloud to be brown. "
+  :guid: 754acbb5a54b2c1979c7282f4b5e173698524ad4
+  :author: ""
+  :biasedperson: delano
+- :title: Weird Al with no facial hair
+  :datesummarized: 2009-04-08 23:37:20 -07:00
+  :worthwhile: false
+  :uri: http://farm4.static.flickr.com/3351/3334104777_bf09f088d0.jpg
+  :biasedsummary: Weird Al has been hiding all these years.
+  :guid: 762dbf28c430223e30dfe46c3f46de023b787f76
+  :author: ""
+  :biasedperson: delano
+- :title: CPAN (Comprehensive Perl Archive Network)
+  :datesummarized: 2009-04-08 23:32:07 -07:00
+  :worthwhile: true
+  :uri: http://search.cpan.org/
+  :biasedsummary: "Lest we forget. "
+  :guid: 579280348a459b2d3039cc4a618ee2a60df39e16
+  :author: ""
+  :biasedperson: delano
+- :title: Daily Routines
+  :datesummarized: 2009-04-08 23:27:48 -07:00
+  :worthwhile: true
+  :uri: http://dailyroutines.typepad.com/
+  :biasedsummary: "An ongoing look at the daily routines of writers. W. H. Auden took amphetamines. "
+  :guid: 97e11e8c6ab133f8d13e8d19811c21ff03ecf697
+  :author: ""
+  :biasedperson: delano
+- :title: A4 vs US Letter
+  :datesummarized: 2009-04-08 23:23:30 -07:00
+  :worthwhile: true
+  :uri: http://betweenborders.com/wordsmithing/a4-vs-us-letter/
+  :biasedsummary: I never realized paper sizes could be interesting. The A-series is particularly rad. Ask for it by name!
+  :guid: 17f5a9bcfee20ab667d3e6446047e4885fac36f5
+  :author: ""
+  :biasedperson: delano
+- :title: Warren Buffet's Letter to Investors, 2009
+  :datesummarized: 2009-04-08 23:20:43 -07:00
+  :worthwhile: true
+  :uri: http://berkshirehathaway.com/letters/2008ltr.pdf
+  :biasedsummary: Warren Buffet made some mistakes in 2009 and the general outlook for the year is rough. However, there are some good deals which makes him and Charlie happy.
+  :guid: 342878d4b4eba52db50e35cb9e88c353ca161db8
+  :author: Warren Buffet
+  :biasedperson: delano
+- :title: Text Playback of Paul Graham's "Startups in 13 Sentences"
+  :datesummarized: 2009-04-08 23:19:10 -07:00
+  :worthwhile: true
+  :uri: http://etherpad.com/ep/pad/slider/13sentences
+  :biasedsummary: "The new education. Recording and playback of all keystrokes. "
+  :guid: e161aa81ffcc7babde38687a924de6a1d21b070d
+  :author: Paul Graham
+  :biasedperson: delano
+- :title: New wing invented in Belarus. Look for the pictures.
+  :datesummarized: 2009-04-08 23:16:45 -07:00
+  :worthwhile: true
+  :uri: http://news.ycombinator.com/item?id=502936
+  :biasedsummary: Discussion about closed wings and a link to pictures of a new one built in Belarus.
+  :guid: 39c430507fb021273327126615b9daca63ba4223
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 6

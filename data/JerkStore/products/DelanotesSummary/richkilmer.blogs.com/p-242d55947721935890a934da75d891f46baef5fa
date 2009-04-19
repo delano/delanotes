@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: 1. Ruby is an excellent language to encode domain specific logic in. 2. Programmers can quickly learn Ruby and can be effective in it. 3. Ruby scales.
+datesummarized: !timestamp 2008-09-24T01:10:22-0700
+guid: 242d55947721935890a934da75d891f46baef5fa
+title: "The Idea Ether: Ruby's Best Feature?"
+uri: http://richkilmer.blogs.com/ether/2008/09/rubys-best-feature.html
+worthwhile: false

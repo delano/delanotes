@@ -1,0 +1,27 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 2
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-11-15T09:30:04-0800
+offset: 
+products: 
+- :title: Why thinking in the shower may be an ideal model for "creative pause"
+  :datesummarized: !timestamp 2008-11-15T09:30:04-0800
+  :worthwhile: true
+  :uri: http://cameronmoll.com/archives/2008/11/showering_and_thinking/
+  :biasedsummary: "Ah good, so it's not just me. "
+  :guid: d31111e870497b8fa40e2b8c216f9acc3e8890c9
+  :author: ""
+  :biasedperson: delano
+- :title: Why I Hate Freelancers
+  :datesummarized: 2008-12-14 20:25:38 -08:00
+  :worthwhile: false
+  :uri: http://arronlock.com/business/why-i-hate-freelancers
+  :biasedsummary: "This guy doesn't like the word \"freelancer\" because it projects a cheap and unprofessional image. He offers alternatives although he justifies using the word himself. "
+  :guid: b40e2d0a3ee432d8a2ed83b0239025bdf9f8136b
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: week
+worthycount: 1

@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: gzip is best for general usage. lzma has better compression than bzip2 and it's faster (but only half the speed of gzip).
+datesummarized: !timestamp 2009-02-17T14:28:14-0800
+guid: 2749d0ed841748ea3dd90eef1d5dcca7c74b5c99
+title: How To Think About Compression
+uri: http://changelog.complete.org/archives/910-how-to-think-about-compression
+worthwhile: false

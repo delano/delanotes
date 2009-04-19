@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2008-12-17T13:04:15-0800
+offset: 
+products: 
+- :biasedsummary: "A painting of a boxer (dog); one of my favourite paintings. "
+  :guid: 4594fbc9c9203014213804ac083c833b633e2f20
+  :biasedperson: delano
+  :title: The Boxer
+  :datesummarized: !timestamp 2008-12-17T13:04:15-0800
+  :worthwhile: true
+  :uri: http://yveslaroche.com/martin-wittfooth
+  :author: Martin Wittfooth
+readonly: false
+timespan: day
+worthycount: 1

@@ -1,0 +1,20 @@
+<div class="snippet">
+  <div class="errmsg">
+  <%= @errmsg %>
+  </div>
+  <form action="/delanonly/newcontent" method="POST">
+    <input accesskey="P" type="text" name="uripath" id="uripath" class="new" value="<%=  h @content.uripath %>" size="45" />
+    
+    <br/>
+    <input accesskey="T" type="text" name="title" id="title" class="new" value="<%= h @content.title %>" size="50" />
+    <br/>
+    
+    <textarea accesskey="B" name="body" id="body" class="new" rows="17" cols="55"><%= h @content.body %></textarea><br/>
+    
+    
+    <input id="submit" accesskey="S" type="submit" value="Save" class="submit" />
+  </form>
+  <%= @poop %>
+</div>
+
+

@@ -1,0 +1,136 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 13
+duration: 1
+notworthycount: 8
+now: !timestamp 2008-08-30T14:58:59-0700
+products: 
+- :uri: http://needish.com/?
+  :datesummarized: !timestamp 2008-08-30T14:58:59-0700
+  :biasedsummary: "Ah it already exists and no one uses it. "
+  :shelf: needish.com
+  :biasedperson: delano
+  :title: "Needish \xC2\xB7 What do you need?"
+  :author: ""
+  :worthwhile: false
+  :guid: 3e971e1617779bf18a3cb25e5edb219187bd8748
+- :uri: http://zenhabits.net/2008/08/random-acts-of-kindness-a-social-site-id-love-to-see/
+  :datesummarized: !timestamp 2008-08-30T14:58:32-0700
+  :biasedsummary: "Alternate title: a social site that no one will use."
+  :shelf: zenhabits.net
+  :biasedperson: delano
+  :title: "Random Acts of Kindness: A Social Site I\xE2\x80\x99d Love to See"
+  :author: ""
+  :worthwhile: false
+  :guid: dd7d69e17ac641bc0cbf9a07c9c6120c3618e195
+- :uri: http://smartmoney.com/10things/index.cfm?story=september2008-10-things-millionaires-will-not-tell-you
+  :datesummarized: 2008-09-26 13:07:25 -07:00
+  :biasedsummary: "Another 10 things list that filled me with rage. Avoid. "
+  :shelf: smartmoney.com
+  :biasedperson: delano
+  :title: 10 Things Millionaires Won't Tell You
+  :author: Daren Fonda
+  :worthwhile: false
+  :guid: c5f1ad8bbc4c7fff209aff2dbc6b4c3a9dc456d0
+- :uri: http://weblog.markbao.com/2008/11-things-learned-from-gnomedex-speaking-and-networking/
+  :datesummarized: 2008-09-25 16:17:43 -07:00
+  :biasedsummary: "Some worthwhile tips from a reasonable guy. "
+  :shelf: weblog.markbao.com
+  :biasedperson: delano
+  :title: 11 Things I Learned From Speaking and Networking at Gnomedex
+  :author: ""
+  :worthwhile: true
+  :guid: 17b7b9ea4f43aefe5012224c372d942f06f1800a
+- :uri: http://successsoul.com/2008/07/15/warren-buffetts-7-secrets-for-living-a-happy-and-simple-life/
+  :datesummarized: 2008-09-25 11:25:01 -07:00
+  :biasedsummary: "The secrets through a warren-pass filter. Note that this is just a list of some things that Warren Buffet has said. It's not his list of 7 \"secrets\":\r\n\
+    \r\n\
+    1. \"In my adult business life I have never had to make a choice of trading between professional and personal. I tap-dance to work, and when I get there it\xE2\x80\x99s tremendous fun.\"\r\n\
+    2. \"I have simple pleasures. I play bridge online for 12 hours a week. Bill and I play, he\xE2\x80\x99s chalengr and I\xE2\x80\x99m tbone.\"\r\n\
+    3. \"I just naturally want to do things that make sense. In my personal life too, I don\xE2\x80\x99t care what other rich people are doing. I don\xE2\x80\x99t want a 405 foot boat just because someone else has a 400 foot boat.\"\r\n\
+    4. \"I want to be able to explain my mistakes. This means I do only the things I completely understand.\"\r\n\
+    5. \"The best way to own common stocks is through an index fund.\"\r\n\
+    6. \"I was lucky to have the right heroes. Tell me who your heroes are and I\xE2\x80\x99ll tell you how you\xE2\x80\x99ll turn out to be. The qualities of the one you admire are the traits that you, with a little practice, can make your own, and that, if practiced, will become habit-forming.\"\r\n\
+    7. \"If you\xE2\x80\x99re doing something you love, you\xE2\x80\x99re more likely to put your all into it, and that generally equates to making money.\""
+  :shelf: successsoul.com
+  :biasedperson: delano
+  :title: "Warren Buffett\xE2\x80\x99s 7 Secrets for Living a Happy and Simple Life"
+  :author: ""
+  :worthwhile: false
+  :guid: d7464e34e3bf510dccbc593749642ca450097e98
+- :uri: http://mattmaroon.com/?p=439
+  :datesummarized: 2008-09-25 09:16:40 -07:00
+  :biasedsummary: "\"If you have a legal question, you should ask a lawyer, and only a lawyer.\""
+  :shelf: mattmaroon.com
+  :biasedperson: delano
+  :title: One Inviolable Rule
+  :author: ""
+  :worthwhile: false
+  :guid: 54cf9f8d2a031556905e9182851e99b4fae213a3
+- :uri: http://freshbooks.com/blog/2008/08/27/7-ways-ive-almost-killed-freshbooks/
+  :datesummarized: 2008-09-25 09:09:34 -07:00
+  :biasedsummary: "Intelligent observations from an intelligent entrepreneur. "
+  :shelf: freshbooks.com
+  :biasedperson: delano
+  :title: "7 ways I\xE2\x80\x99ve almost killed FreshBooks"
+  :author: Mike McDerment
+  :worthwhile: true
+  :guid: c2a8dd4518b49a3bc34a63f76ed833ea090fd169
+- :uri: http://motherjones.com/military-maps/
+  :datesummarized: 2008-09-24 13:32:19 -07:00
+  :biasedsummary: "A unique look at where US troops have been since 1950: almost everywhere. "
+  :shelf: motherjones.com
+  :biasedperson: delano
+  :title: Interactive map on US troop levels around the world since 1950
+  :author: ""
+  :worthwhile: true
+  :guid: e59a7c2b4a60fc13d4daeca49324bc1c5b0b9a7a
+- :uri: http://blog.lendingclub.com/2008/08/26/7-teeth-gnashing-mistakes-i-made-as-an-entrepreneur/
+  :datesummarized: 2008-09-24 13:28:20 -07:00
+  :biasedsummary: "A lousy entrepreneur giving advice to other lousy entrepreneurs. A good read if you want to make sure you're not on the wrong track. "
+  :shelf: blog.lendingclub.com
+  :biasedperson: delano
+  :title: "7 Teeth-Gnashing Mistakes I Made as an Entrepreneur   "
+  :author: ""
+  :worthwhile: false
+  :guid: 36b81ae4ebc86350f9a4aec92212fa2edc624fc8
+- :uri: http://lispy.wordpress.com/2008/08/25/do-you-know-any-programmers-that-exhibit-these-personality-traits/
+  :datesummarized: 2008-09-24 09:00:59 -07:00
+  :biasedsummary: |
+    The blog post is a somewhat pedantic and simplistic observation on the INTP personality type (Myers-Briggs), but the comment by A.R.M is the worthwhile read as an analysis of ADHD as a fabricated label for INTPs. 
+
+  :shelf: lispy.wordpress.com
+  :biasedperson: delano
+  :title: "Do you know any programmers that exhibit these personality traits\xE2\x80\xA6?"
+  :author: ""
+  :worthwhile: true
+  :guid: d4fea12f773d8e5a8b5e2e550dedecdc251c4005
+- :uri: http://amazon.com/Control-Your-Time-Life-Signet/dp/0451167724/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1219697412&sr=8-1
+  :datesummarized: 2008-09-24 08:27:12 -07:00
+  :biasedsummary: "Out of date bullshit. Also, patronizing to women. The only advice you need: just start. "
+  :shelf: amazon.com
+  :biasedperson: delano
+  :title: "Amazon.com: How to Get Control of Your Time and Your Life (Signet)"
+  :author: Alan Lakein
+  :worthwhile: false
+  :guid: 974d960904c5a88fca1ef13b37fc59ec5b9780e0
+- :uri: http://webmasterworld.com/robots.txt
+  :datesummarized: 2008-09-24 08:10:01 -07:00
+  :biasedsummary: "The first and likely only blog published within a robots.txt file. It's out of print now but it's still a good read for mostly internet business analysis (and SEO). It's also peppered with Steven Wright quotes. "
+  :shelf: webmasterworld.com
+  :biasedperson: delano
+  :title: THE BOT BLOG
+  :author: "Brett Tabke "
+  :worthwhile: true
+  :guid: 4a8207b3d00dc100c8a7161cc2c455798f337c56
+- :uri: http://japantoday.com/category/kuchikomi/view/north-koreas-kim-died-in-2003-and-was-replaced-by-lookalike-says-waseda-profesor
+  :datesummarized: 2008-09-24 05:13:16 -07:00
+  :biasedsummary: "A Japanese professor claims Kim Jong Il is dead based on dubious facts. For example, they analyzed his height using an american \"spy satellite\" and he had apparently grown 2.5cm. I did learn one thing: Kim has diabetes. "
+  :shelf: japantoday.com
+  :biasedperson: delano
+  :title: N Korea's Kim died in 2003; replaced by lookalike, says Waseda professor
+  :author: ""
+  :worthwhile: false
+  :guid: e85107dc19e4f279901a448980c4934dff4e8029
+timespan: week
+worthycount: 5

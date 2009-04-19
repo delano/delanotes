@@ -1,0 +1,35 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 3
+duration: 1
+notworthycount: 2
+now: !timestamp 2008-10-11T09:36:20-0700
+offset: 
+products: 
+- :uri: http://hivelogic.com/articles/2008/10/how-to-record-a-multi-person-podcast
+  :biasedperson: delano
+  :title: How to Record a Podcast with People in Multiple Locations
+  :datesummarized: !timestamp 2008-10-11T09:36:20-0700
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: Guy discovers Joshua Keaton's recording technique for the In The Key of Jesus Radio Show.
+  :guid: 6854217413e26d674bd73b4d298b3bc6eb76c648
+- :uri: http://noisebetweenstations.com/personal/weblogs/?p=2214
+  :biasedperson: delano
+  :title: "Two Things Design Experts Do That Novices Don\xE2\x80\x99t"
+  :datesummarized: 2008-11-09 05:31:45 -08:00
+  :worthwhile: false
+  :author: Victor
+  :biasedsummary: Experts solve problems from the top down and breadth-first (novices are depth-first). Experts are pragmatists, they re-set or re-frame the problem to make it solvable. Novices are realists, they take the problem as a given and get stuck.
+  :guid: 7c6de9e5cfbc773029780e04cc7d962dec463500
+- :uri: http://links.betterexplained.com/
+  :biasedperson: delano
+  :title: Links BetterExplained
+  :datesummarized: 2008-11-09 05:24:35 -08:00
+  :worthwhile: true
+  :author: ""
+  :biasedsummary: Summaries are catching on.
+  :guid: 3b04b5ae3a83918b5fa0f084ece12fe9bec7627d
+readonly: false
+timespan: day
+worthycount: 1

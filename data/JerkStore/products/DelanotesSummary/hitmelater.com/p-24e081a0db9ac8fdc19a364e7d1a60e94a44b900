@@ -1,0 +1,11 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: "Forward an email to 24@hitmelater.com and get it back 24 hours later. I don't trust it yet but I'm interested. "
+datesummarized: 2008-08-15T02:05:47+00:00
+guid: 24e081a0db9ac8fdc19a364e7d1a60e94a44b900
+seed: http://hitmelater.com/
+shelf: hitmelater.com
+title: HitMeLater - A Snooze Button For Your Email
+uri: http://hitmelater.com/
+worthwhile: true

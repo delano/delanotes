@@ -1,0 +1,94 @@
+
+
+
+<ol id="summaries">
+<h1>Things I've looked at</h1>
+
+<p>...in the past
+
+<% if @age %>
+<strong><%= @age %></strong>
+<% else %>
+<strong>week</strong>
+<% end %>
+
+<% if(defined? @summaries) %>
+(<%= @summaries.length %>)
+<% else %>
+(0)
+<% end %>
+</p>
+
+<% if (defined? @summaries) %>
+<% for @summary in @summaries %>
+
+  <li class="suri-<%= h @summary.worthwhile %>"><a href="<%= h @summary.uri %>" title="<%= h @summary.title %>"><%= h @summary.uri %></a></li>
+  <ul>
+    
+    <li class="stitle"><%= h @summary.title %> 
+    
+    <% if @summary.author != "" %> by <%= h @summary.author %><% end %></li>
+    
+    <li class="stext">
+    <%= h @summary.biasedsummary %>
+    </li>
+    <li class="sdate">
+    <a class="sumlink" href="/summary/?uri=<%= h e @summary.uri %>" title="YAML summary for <%= h @summary.uri %> ">Summarized</a> on <%= @summary.datesummarized.strftime("%m/%d/%Y @ %H:%M%p") %>
+    </li>
+    
+  </ul>
+
+<% end %>
+<% end %>
+</ol>
+  
+<ul id="stats">
+<h1>Previously on...</h1>
+
+<table id="past">
+
+
+
+<tr>
+  <td rowspan="2" class="time">This<br/>Week</td>
+  <td rowspan="2" class="total"><a href="/?age=week" title="Summaries from this week"><%= count_summaries('week') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('week', true) %> </td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('week', false) %> </td>
+</tr>
+
+<tr>
+  <td rowspan="2" class="time">Last<br/>Week</td>
+  <td rowspan="2" class="total"><a href="/?age=lastweek" title="Summaries from last week"><%= count_summaries('lastweek') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('lastweek', true) %> </td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('lastweek', false) %> </td>
+</tr>
+
+<tr>
+  <td rowspan="2" class="time">This<br/>Month</td>
+  <td rowspan="2" class="total"><a href="/?age=month" title="Summaries from the this month"><%= count_summaries('month') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('month', true) %></td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('month', false) %> </td>
+</tr>
+
+<tr>
+  <td rowspan="2" class="time">Last<br/>Month</td>
+  <td rowspan="2" class="total"><a href="/?age=lastmonth" title="Summaries from last month"><%= count_summaries('lastmonth') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('lastmonth', true) %></td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('lastmonth', false) %> </td>
+</tr>
+</table>
+
+
+
+</ul>
+
+<br/>
+

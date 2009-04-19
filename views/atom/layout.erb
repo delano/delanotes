@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Delanotes</title>
+  <subtitle>the most recent biased summaries of URIs</subtitle>
+  <link href="http://delanotes.com/"/>
+  <% if (defined? @summaries) %><updated><%= @summaries[0].datesummarized.strftime("%m/%d/%Y @ %H:%M%p") %></updated><% end %>
+  <author>
+    <name>Delano Mandelbaum</name>
+  </author>
+  <id>http://delanotes.com/</id>
+  <category term="summaries"/>
+  <generator version="0.1">
+  JerkStore
+  </generator>
+  <icon>/favicon.png</icon>
+
+<%= yield %>
+
+</feed>

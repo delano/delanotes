@@ -1,0 +1,33 @@
+<div class="snippet">
+  <div class="errmsg">
+  <%= @errmsg %>
+  </div>
+  <form action="/delanonly/newdelanote" method="POST">
+    <input accesskey="H" type="text" name="uri" id="uri" class="new" value="<%=  h @summary.uri %>" size="45" />
+    
+    <br/>
+    <input accesskey="T" type="text" name="title" id="title" class="new" value="<%= h @summary.title %>" size="50" />
+    <br/>
+    
+    <input accesskey="A" type="text" name="author" id="author" class="author" value="<%= h @summary.author %>" size="30" />
+    
+    <label for="worthwhile" accesskey="W">worthy: </label>
+    <input <% if @summary.worthwhile %>
+      checked="checked"
+    <% end %> id="worthwhile" type="checkbox" value="true" name="worthwhile" style="height: 20px;"/>
+    
+    <label for="ignore" accesskey="I">ignore: </label>
+    <input <% if params[:ignore] %>
+      checked="checked"
+    <% end %> id="ignore" name="ignore" type="checkbox" value="true" style="height: 20px;"/>
+    <br/>
+    
+    <textarea accesskey="B" name="biasedsummary" id="biasedsummary" class="new" rows="7" cols="55"><%= h @summary.biasedsummary %></textarea><br/>
+    
+    
+    <input id="submit" accesskey="S" type="submit" value="Save" class="submit" />
+  </form>
+  <%= @poop %>
+</div>
+
+

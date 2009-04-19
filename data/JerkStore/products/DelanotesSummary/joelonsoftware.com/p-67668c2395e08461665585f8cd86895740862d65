@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: "People connote low price with low quality and vice versa. Record companies can use this as leverage against artists. [ed: this article is 3 years old and Apple held out to maintain a single price]"
+datesummarized: !timestamp 2008-09-08T12:30:09-0700
+guid: 67668c2395e08461665585f8cd86895740862d65
+title: Price as Signal
+uri: http://joelonsoftware.com/items/2005/11/18.html
+worthwhile: true

@@ -1,0 +1,12 @@
+<% if (defined? @summaries) %>
+<% for @summary in @summaries %>
+  <entry>	
+    <title><%= h @summary.title %></title>
+    <link href="<%= h @summary.uri %>"/>
+    <id>http://delanotes.com/summary/?uri=<%= h e @summary.uri %></id>
+    <updated><%= @summary.datesummarized.strftime("%m/%d/%Y @ %H:%M%p") %></updated>
+    <summary>Bias: (<% if @summary.worthwhile %>+<% else %>-<% end %>). <%= h @summary.biasedsummary %></summary>
+	<% if @summary.author != "" %><author><%= h @summary.author %></author><% end %>
+  </entry>
+<% end %>
+<% end %>

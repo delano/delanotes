@@ -1,0 +1,188 @@
+    body {
+      background-color: #eee;
+      font-family: serif;
+    }
+    
+    #header {
+      font-size: 2em;
+      font-weight: bold;
+      font-family: sans-serif;
+      padding-bottom: 12px;
+    }
+    #header .subtext {
+      font-size: 50%;
+	      padding-left: 15px;
+	      padding-right: 35px;
+      font-weight: lighter;
+    }
+    #header .sublink {
+      font-size: 50%;
+      padding-left: 10px;
+      font-weight: lighter;
+	  color: #c00;
+	  text-decoration: underline;
+    }
+    #header .sublink:visited {
+	  color: #900;
+	  text-decoration: underline;
+    }
+    #header .sublink:active {
+	  color: #f00;
+	  text-decoration: underline;
+    }
+    
+    #header a {
+      color: #000;
+      text-decoration: none;
+    }
+    
+    #body {
+    }
+    .uribox-default {
+      color: #ccc;
+    }
+    .uribox {
+      color: #000;
+    }
+    
+    #summaries {
+      width: 450px;
+      float: left; 
+      background-color: #fff;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 10px;
+      padding-bottom: 40px;
+      margin-right: 10px;
+    }
+    #summaries h1 {
+      margin-bottom: 5px;
+    }
+    
+    #stats {
+      width: 230px;
+      float: left;
+      background-color: #fff;
+      padding-left: 50px;
+      padding-right: 40px;
+      padding-top: 10px;
+      padding-bottom: 40px;
+    }
+    #stats h3 {
+      padding-bottom: 0px;
+      margin-bottom: 4px;
+    }
+    
+#past a:visited {color: #999;}
+    
+    #past tr td{
+      padding: 4px;
+      font-weight: bold;
+    }
+    #past td.time {
+      border: 0px solid #666;
+      color: #fff;
+      background-color: #000;
+      text-align:right;
+      width: 70px;
+      padding-right: 10px;
+    }
+    #past td.total {
+      border: 0px solid #666;
+      font-size: 200%;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align:center;
+    }
+    #past td.positive {
+      color: #f00;
+      font-size: 80%;
+    }
+    #past td.negative {
+      color: #000;
+      font-size: 80%;
+    }
+    #past td span {
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 120%;
+    }
+    
+    
+    li.suri {
+      padding-top: 20px;
+      font-size: 120%;
+    }
+    li.suri-false {
+      padding-top: 20px;
+      font-size: 120%;
+      list-style-type: disc;
+      list-style-image: url(/i/bias-f.png);
+      list-style-position: outside;
+    }
+    li.suri-true {
+      padding-top: 20px;
+      font-size: 120%;
+      list-style-type: disc;
+      list-style-image: url(/i/bias-t.png);
+      list-style-position: outside;
+    }
+    li.stext {
+      list-style-type: none;
+    }
+    li.stext-false {
+      list-style-type: disc;
+      list-style-image: url(/i/bias-f.png);
+      list-style-position: outside;
+    }
+    li.stext-true {
+      list-style-type: disc;
+      list-style-image: url(/i/bias-t.png);
+      list-style-position: outside;
+    }
+    li.sdate {	
+      list-style: none;
+      font-size: 80%;
+      color: #ccc;
+      text-align: right;
+      padding-bottom: 5px;
+    }
+    li.stitle {
+      list-style: none;
+      font-weight: bolder;
+      font-style:italic; 
+    }
+    a.sumlink {
+      color: #ccc;
+    }
+    
+    .errmsg {
+      font-size: 120%;
+      color: #f00;
+      padding-bottom: 0px;
+      padding-top: 10px;
+    }
+    
+    #weblogchunk {
+        z-index: 2;
+        background-image: url("/i/weblog-tag.png");
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    #weblogchunk a {
+        display: block;
+        width: 85px;
+        height: 85px;
+    }
+    
+    #weblogchunk a:hover {
+        background: none;
+    }
+    
+    #weblogchunk a span {
+        display: none;
+    }
+
+	

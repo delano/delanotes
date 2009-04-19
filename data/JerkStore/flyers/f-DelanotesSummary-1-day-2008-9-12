@@ -1,0 +1,27 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 2
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-09-12T21:12:06-0700
+offset: 
+products: 
+- :uri: http://vinvesting.com/docs/munger/human_misjudgement.html
+  :biasedsummary: "A thorough overview of human judgement (and how it relates to economics) by a man who's made a lot of money with Warren Buffet. Also, read the book Influence by Bob Cialdini. "
+  :guid: 8b2f565c530369ddabf56a452e28fc26b509e8f6
+  :biasedperson: delano
+  :title: The Psychology of Human Judgement
+  :datesummarized: !timestamp 2008-09-12T21:12:06-0700
+  :worthwhile: true
+  :author: Charlie Munger
+- :uri: http://theage.com.au/news/biztech/the-internets-dirty-little-secret/2008/09/11/1220857702243.html
+  :biasedsummary: "A sexist article about shopping on the internet while drinking. "
+  :guid: 0dabb06577a6e13918e7d9ca14901e1bf0f81419
+  :biasedperson: delano
+  :title: The internet's dirty little secret
+  :datesummarized: 2008-10-11 10:47:33 -07:00
+  :worthwhile: false
+  :author: ""
+readonly: false
+timespan: day
+worthycount: 1

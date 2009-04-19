@@ -1,0 +1,139 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 16
+duration: 1
+notworthycount: 8
+now: !timestamp 2008-10-31T16:24:42-0700
+offset: 
+products: 
+- :uri: http://dailymotion.com/fr/featured/video/x45w75_reinvente-ton-jeu_extreme
+  :biasedperson: delano
+  :title: "R\xC3\xA9invente ton jeu, een video van ElectronicArts [video]"
+  :datesummarized: !timestamp 2008-10-31T16:24:42-0700
+  :worthwhile: true
+  :author: ""
+  :biasedsummary: "Wack, urban football. "
+  :guid: 184343e75cf7e137e4fa3cca3058dc9e742a2149
+- :uri: http://adam.blog.heroku.com/past/2008/10/30/giving_up/
+  :biasedperson: delano
+  :title: Giving Up
+  :datesummarized: 2008-11-28 21:04:05 -08:00
+  :worthwhile: true
+  :author: ""
+  :biasedsummary: Consider your work so far to be "research." Write up a paragraph or two summarizing how you tried to solve the problem and why it didn't work. Put this into the ticket or an email or your personal notes, so that it's preserved for posterity. Then forget about it and move on to something else.
+  :guid: aee159b7b2c0a3920b0b34d5b0f54d97e4fd995e
+- :uri: http://heise-online.co.uk/open/Kernel-Log-More-than-10-million-lines-of-Linux-source-files--/news/111759
+  :biasedperson: delano
+  :title: "Kernel Log: More than 10 million lines of Linux source files - "
+  :datesummarized: 2008-11-20 13:37:27 -08:00
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: Misleading. There's only 6.4 million lines of actual code (the rest are blank lines and comments).
+  :guid: 5496cd8eed5ebce6f41d85f93b5ee7f6678f6ef6
+- :uri: http://howto.wired.com/wiki/Do_Donuts
+  :biasedperson: delano
+  :title: Do Donuts
+  :datesummarized: 2008-11-20 13:34:52 -08:00
+  :worthwhile: true
+  :author: ""
+  :biasedsummary: This is important. It tells you how to do donuts (safely).
+  :guid: 155356df4c31d4f69f30553d8742c4a1488976d7
+- :uri: http://telegraph.co.uk/earth/main.jhtml?view=DETAILS&grid=&xml=/earth/2008/10/22/easpider122.xml
+  :biasedperson: delano
+  :title: Giant spider eating a bird caught on camera
+  :datesummarized: 2008-11-20 13:30:45 -08:00
+  :worthwhile: true
+  :author: Bonnie Malkin
+  :biasedsummary: "It looks exactly as you expect it to: gross and awesome. "
+  :guid: 534648bf58b0f29ff75320e75e0ace2b6872fda2
+- :uri: http://upload.wikimedia.org/wikipedia/commons/d/d6/St_Peter's_Square,_Vatican_City_-_April_2007.jpg
+  :biasedperson: delano
+  :title: Rome from St Peter's Square [pic]
+  :datesummarized: 2008-11-20 13:25:36 -08:00
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: "GIGANTIC but cool picture of Rome. Click it only if you really, really like Italy or cityscapes or large files. "
+  :guid: 434cd633736ae81ea73bbc39b2601e08896d19d3
+- :uri: http://bread-and-honey.blogspot.com/2008/10/wtf-broccoli.html
+  :biasedperson: delano
+  :title: WTF, BROCCOLI?
+  :datesummarized: 2008-11-20 13:17:35 -08:00
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: "Clever graphic designer hides little, smiling face on the packaging for Cascadian Farm frozen broccoli. "
+  :guid: 2d3608312e0c3f4a9c3679133afb74acec64f3b5
+- :uri: http://daringfireball.net/2008/10/the_phone_company
+  :biasedperson: delano
+  :title: "Daring Fireball: The Phone Company"
+  :datesummarized: 2008-11-20 13:12:51 -08:00
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: Apple makes a lot of money from iPhones. After 15 months on the market iPhones are almost their primary product.
+  :guid: aaffade9e7b1dc74158e2402032886cab64d6982
+- :uri: http://crystalheadvodka.com/
+  :biasedperson: delano
+  :title: Crystal Head Vodka
+  :datesummarized: 2008-11-13 12:37:44 -08:00
+  :worthwhile: true
+  :author: Dan Aykroyd
+  :biasedsummary: "This is not a joke. Dan Aykroyd has become a personal hero. "
+  :guid: f3956ed6e7c518b445bd7f408f8ee2489286d2a2
+- :uri: http://hivelogic.com/articles/2008/10/how-to-record-a-multi-person-podcast
+  :biasedperson: delano
+  :title: How to Record a Podcast with People in Multiple Locations
+  :datesummarized: 2008-11-09 05:36:20 -08:00
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: Guy discovers Joshua Keaton's recording technique for the In The Key of Jesus Radio Show.
+  :guid: 6854217413e26d674bd73b4d298b3bc6eb76c648
+- :uri: http://noisebetweenstations.com/personal/weblogs/?p=2214
+  :biasedperson: delano
+  :title: "Two Things Design Experts Do That Novices Don\xE2\x80\x99t"
+  :datesummarized: 2008-11-09 05:31:45 -08:00
+  :worthwhile: false
+  :author: Victor
+  :biasedsummary: Experts solve problems from the top down and breadth-first (novices are depth-first). Experts are pragmatists, they re-set or re-frame the problem to make it solvable. Novices are realists, they take the problem as a given and get stuck.
+  :guid: 7c6de9e5cfbc773029780e04cc7d962dec463500
+- :uri: http://links.betterexplained.com/
+  :biasedperson: delano
+  :title: Links BetterExplained
+  :datesummarized: 2008-11-09 05:24:35 -08:00
+  :worthwhile: true
+  :author: ""
+  :biasedsummary: Summaries are catching on.
+  :guid: 3b04b5ae3a83918b5fa0f084ece12fe9bec7627d
+- :uri: http://centernetworks.com/meetup-ny-tech-friends
+  :biasedperson: delano
+  :title: Just What Does it Take to Present at the NY Tech Meetup?
+  :datesummarized: 2008-11-07 03:11:25 -08:00
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: Nepotism.
+  :guid: cbe0a22ff824a3ec08db8f49d2fb7a6761931a32
+- :uri: http://nbc.com/Saturday_Night_Live/video/clips/to-love-honor-and-stalk/266795/
+  :biasedperson: delano
+  :title: To Love, Honor and Stalk
+  :datesummarized: 2008-11-07 03:04:50 -08:00
+  :worthwhile: true
+  :author: SNL
+  :biasedsummary: "John McCain playing the role of a husband who invades his wife's personal space. "
+  :guid: 640ce9c03e70867f0f35323740bcbca8cfb2d654
+- :uri: http://google.com/google.jpg
+  :biasedperson: delano
+  :title: The Original Google logo
+  :datesummarized: 2008-11-01 13:30:42 -07:00
+  :worthwhile: false
+  :author: ""
+  :biasedsummary: I forgot that it had an exclamation point. Even Larry, Sergey (and that other guy) looked up at Yahoo in the beginning.
+  :guid: 2f9037533f1b661876c3e6643d9e528815134efd
+- :uri: http://natwilson.com/stuff/whistle.html
+  :biasedperson: delano
+  :title: How To Whistle Loudly
+  :datesummarized: 2008-10-31 10:59:50 -07:00
+  :worthwhile: true
+  :author: ""
+  :biasedsummary: This tutorial is fun and could be a life saver!
+  :guid: 5ad27609713353eb47b92281f397eeb0b9ec9dd5
+readonly: false
+timespan: month
+worthycount: 8

@@ -1,0 +1,26 @@
+
+AUDIO FILES
+$ cd ~/Projects/Delanotes
+$ rsync -r --stats --progress ~/Projects/Delanotes/audio/* solutious.com:~/sites/delanotes.com/public/audio_files/
+
+
+PASSENGER
+
+Restart
+$ touch ~/sites/delanotes.com/tmp/restart.txt
+
+Apache error log
+$ tail -f ~/logs/beta.delanotes.com/http.8255370/error.log
+
+Sinatra log
+$ joe config.ru
+$ tail -f log/sintra.log
+
+FCGI
+
+Look for FCGI processes
+$ ps aux 
+
+Kill FCGI processes
+$ killall -9 /usr/bin/ruby
+

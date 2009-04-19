@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-11-19T23:24:37-0800
+offset: 
+products: 
+- :title: HTTP Conversation Codes | Seldo.Com Blog
+  :datesummarized: !timestamp 2008-11-19T23:24:37-0800
+  :worthwhile: false
+  :uri: http://seldo.com/weblog/2008/11/19/http_conversation_codes
+  :biasedsummary: Protocol humour.
+  :guid: 601b2ac5d07f4c67c03aae10e139f70fd4ceb359
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 0

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title><%= @title || 'Delanotes.com!' %></title>
+  <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+  <link href="/i/style.css" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="alternate" type="application/atom+xml" title="Atom (full content)" href="feed.atom" />
+  <script type="text/javascript" src="/i/site.js"></script>
+
+</head>
+<body>
+<div id="weblogchunk">
+  <a href="http://weblog.delanotes.com/"><span>re: delanotes.com</span></a>
+</div>
+
+  <div id="header">
+  <a href="/" title="Delanotes.com: Biased summaries of URIs">DELANOTES.COM</a>
+  <span class="subtext">
+  <em>My biased content</em>.  
+  </span>
+  <a href="/about/" class="sublink">about</a> 
+  <a href="/audio/" class="sublink">audio</a>
+  </div>
+  <div id="body">
+	
+	<form action="/summary/" method="get">
+	<input class="uribox-default" type="text" id="uribox" name="uri" size="65" />
+	<input type="submit" name="" value="Read Summary" />
+	</form>
+
+	<% if @errmsg %>
+	<div class="errmsg"><%= @errmsg %></div>
+	<% end %>
+	
+  <%= yield %>
+  </div>
+  
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4642735-5");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
+

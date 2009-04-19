@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: "I use this tool around 10 times a week, all year long. "
+datesummarized: !timestamp 2008-09-24T01:21:22-0700
+guid: af7b8d1b559e45cccb7b0b667aca071f68343a5a
+title: URL Decoder/Encoder
+uri: http://meyerweb.com/eric/tools/dencoder/
+worthwhile: true

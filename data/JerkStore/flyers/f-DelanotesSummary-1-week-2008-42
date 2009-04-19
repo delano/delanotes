@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2008-10-15T16:37:45-0700
+offset: 
+products: 
+- :uri: http://crystalheadvodka.com/
+  :biasedperson: delano
+  :title: Crystal Head Vodka
+  :datesummarized: !timestamp 2008-10-15T16:37:44-0700
+  :worthwhile: true
+  :author: Dan Aykroyd
+  :biasedsummary: "This is not a joke. Dan Aykroyd has become a personal hero. "
+  :guid: f3956ed6e7c518b445bd7f408f8ee2489286d2a2
+readonly: false
+timespan: week
+worthycount: 1

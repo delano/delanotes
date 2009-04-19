@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: "perl is everywhere. "
+datesummarized: !timestamp 2009-01-14T00:25:14-0800
+guid: dae6fc1bb8ade7d355b8f3dccc1d881a46b2042e
+title: The Bitwise Operators
+uri: http://cs.cf.ac.uk/Dave/PERL/node36.html
+worthwhile: true

@@ -1,0 +1,27 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 2
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-09-25T04:52:32-0700
+offset: 
+products: 
+- :uri: http://animalliberationfront.com/News/AnimalPhotos/Animals_91-100/BabyDogHugs.htm
+  :biasedsummary: "Crazy animal people are crazy. "
+  :guid: bb7bf7847922e86881764a7235d2155a893eaa05
+  :biasedperson: delano
+  :title: Baby Dog Hugs
+  :datesummarized: !timestamp 2008-09-25T04:52:32-0700
+  :worthwhile: true
+  :author: ""
+- :uri: http://matthewpaulmoore.com/articles/1276-ruby-on-rails-code-quality-checklist
+  :biasedsummary: Be prepared to learn another world not unlike Riven when you embark on Rails.
+  :guid: 8b96a4e34dcc1a0ba35409542fc0941d4e2b8a53
+  :biasedperson: delano
+  :title: Ruby on Rails Code Quality Checklist
+  :datesummarized: 2008-10-23 21:50:52 -07:00
+  :worthwhile: false
+  :author: ""
+readonly: false
+timespan: day
+worthycount: 1

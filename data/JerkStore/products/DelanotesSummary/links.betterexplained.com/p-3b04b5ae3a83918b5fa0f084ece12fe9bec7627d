@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: Summaries are catching on.
+datesummarized: !timestamp 2008-10-11T09:24:35-0700
+guid: 3b04b5ae3a83918b5fa0f084ece12fe9bec7627d
+title: Links BetterExplained
+uri: http://links.betterexplained.com/
+worthwhile: true

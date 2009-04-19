@@ -1,0 +1,92 @@
+
+
+<ol id="summaries">
+
+<h1><%= @title %></h1>
+
+<p>The following are recordings of conversations from my daily life.</p>
+
+<% 
+	if File.directory? @audio_path 
+	Dir.foreach(@audio_path) { |dir|   
+		next if dir.match(/^\./) 
+		next unless File.directory? "#{@audio_path}/#{dir}"
+		
+		%><h3><%= dir %></h3><%
+		Dir.foreach("#{@audio_path}/#{dir}") { |file|
+			next if file.match(/^\./) 
+			next unless file.match(/mp3$/)
+			
+			txtfile = file.gsub(/\.mp3/, '.txt')
+			
+			mp3link = "/audio_files/#{dir}/#{file}"
+			
+			%><a href="<%= mp3link %>"><%= file %></a><%
+			
+			if File.exists? "#{@audio_path}/#{dir}/#{txtfile}"
+				txtlink = "/audio_files/#{dir}/#{txtfile}"
+				%> (<a href="<%= txtlink %>">notes</a>)<br/><%
+			else
+				%><br/><%
+			end
+		}
+		
+		
+%>
+<% } end %>
+
+</ol>
+
+
+<ul id="stats">
+<h1>Previously on...</h1>
+
+<table id="past">
+
+
+
+<tr>
+  <td rowspan="2" class="time">This<br/>Week</td>
+  <td rowspan="2" class="total"><a href="/?age=week" title="Summaries from this week"><%= count_summaries('week') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('week', true) %> </td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('week', false) %> </td>
+</tr>
+
+<tr>
+  <td rowspan="2" class="time">Last<br/>Week</td>
+  <td rowspan="2" class="total"><a href="/?age=lastweek" title="Summaries from last week"><%= count_summaries('lastweek') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('lastweek', true) %> </td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('lastweek', false) %> </td>
+</tr>
+
+<tr>
+  <td rowspan="2" class="time">This<br/>Month</td>
+  <td rowspan="2" class="total"><a href="/?age=month" title="Summaries from the this month"><%= count_summaries('month') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('month', true) %></td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('month', false) %> </td>
+</tr>
+
+
+<tr>
+  <td rowspan="2" class="time">Last<br/>Month</td>
+  <td rowspan="2" class="total"><a href="/?age=lastmonth" title="Summaries from last month"><%= count_summaries('lastmonth') %></a></td>
+  <td class="positive"><span>+</span> <%= count_summaries('lastmonth', true) %></td>
+</tr>
+<tr>
+  <td class="negative"><span>-</span> <%= count_summaries('lastmonth', false) %> </td>
+</tr>
+</table>
+
+
+</ul>
+
+<br/>
+
+
+

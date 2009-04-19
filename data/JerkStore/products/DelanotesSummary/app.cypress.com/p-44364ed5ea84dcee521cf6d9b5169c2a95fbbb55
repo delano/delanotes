@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: T.J. Rogers
+biasedperson: delano
+biasedsummary: A long presentation from 1993 by the CEO of Cypress Semiconductor. He makes a persuasive argument.
+datesummarized: !timestamp 2009-04-01T14:40:04-0700
+guid: 44364ed5ea84dcee521cf6d9b5169c2a95fbbb55
+title: "High Technology Innovation: Free Markets or Government Subsidies?"
+uri: http://app.cypress.com/portal/server.pt?CommunityID=201&DirectoryID=204370&PageID=344&control=SetCommunity&space=CommunityPage
+worthwhile: true

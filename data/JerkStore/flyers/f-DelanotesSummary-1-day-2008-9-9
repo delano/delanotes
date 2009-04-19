@@ -1,0 +1,35 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 3
+duration: 1
+notworthycount: 0
+now: !timestamp 2008-09-09T17:10:10-0700
+offset: 
+products: 
+- :uri: http://tuxdeluxe.org/node/285
+  :biasedsummary: "Seek out mentors and read other people's code. "
+  :guid: e898949aaceabbdf65a4581573466d155ab64e12
+  :biasedperson: delano
+  :title: Learning the craft (of programming)
+  :datesummarized: !timestamp 2008-09-09T17:10:10-0700
+  :worthwhile: true
+  :author: ""
+- :uri: http://floozyspeak.com/blog/archives/2008/08/valley_of_the_t.html
+  :biasedsummary: "A reasonable overview of the motivations of people participating in Amazon's Mechanical Turk. "
+  :guid: ab66a093980aa4d8f109c278b9940b94bc03518e
+  :biasedperson: delano
+  :title: Valley of the Turks
+  :datesummarized: 2008-10-08 08:28:53 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://blog.wired.com/wiredscience/2008/09/invertebrate-as.html
+  :biasedsummary: "Water bears become space bears. "
+  :guid: e7b4d75ab0147acb0411dd9643c176883da192f7
+  :biasedperson: delano
+  :title: "Invertebrate Astronauts Make Space History "
+  :datesummarized: 2008-10-07 21:50:07 -07:00
+  :worthwhile: true
+  :author: ""
+readonly: false
+timespan: day
+worthycount: 3

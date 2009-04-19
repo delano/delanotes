@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2009-03-05T14:49:20-0800
+offset: 
+products: 
+- :title: In search of the click track
+  :datesummarized: !timestamp 2009-03-05T14:49:20-0800
+  :worthwhile: true
+  :uri: http://musicmachinery.com/2009/03/02/in-search-of-the-click-track/?rss
+  :biasedsummary: "Click track detection with Python and Gnuplot. "
+  :guid: fe16cf9d4166fa60a5c4c74d8cd5111ce530bcb0
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 1

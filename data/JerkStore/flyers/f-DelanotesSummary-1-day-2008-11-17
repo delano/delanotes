@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2008-11-17T03:07:20-0800
+offset: 
+products: 
+- :title: Tea Storage
+  :datesummarized: !timestamp 2008-11-17T03:07:20-0800
+  :worthwhile: true
+  :uri: http://kiva.net/~kls/tea_storage.html
+  :biasedsummary: Finally. Someone on the internet knows what they're talking about.
+  :guid: bd711699536e75027c882eec4bc82d49c17113f0
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 1

@@ -1,0 +1,11 @@
+--- !ruby/object:Delanotes::Summary 
+author: Iljitsch van Beijnum
+biasedperson: delano
+biasedsummary: "We're going to run out of IPv4 address in 2012. "
+datesummarized: 2008-08-18T02:29:28+00:00
+guid: 84bd1c74593de9a2d1ee70e87853a81ee12ca2ff
+seed: http://arstechnica.com/news.ars/post/20080817-were-running-out-of-ipv4-addresses-time-for-ipv6-really.html
+shelf: arstechnica.com
+title: We're running out of IPv4 addresses. Time for IPv6. Really.
+uri: http://arstechnica.com/news.ars/post/20080817-were-running-out-of-ipv4-addresses-time-for-ipv6-really.html
+worthwhile: true

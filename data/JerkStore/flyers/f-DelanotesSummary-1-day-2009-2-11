@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2009-02-11T06:45:39-0800
+offset: 
+products: 
+- :title: "hackety org \xC2\xBB The Fundamental Little Hackers' Summit"
+  :datesummarized: !timestamp 2009-02-11T06:45:39-0800
+  :worthwhile: true
+  :uri: http://hackety.org/2009/02/05/theFundamentalLittleHackersSummit.html
+  :biasedsummary: "\"Art and Code: A Symposium on Programming Environments for Artists, Young People, and the Rest of Us.\""
+  :guid: 3a2e19a26a14a5870b3f804c4f3900eb6ecac915
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 1

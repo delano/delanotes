@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: ""
+biasedperson: delano
+biasedsummary: This is a pretty cool approach for a product launch (although they should have used wider images and pre-loaded the next page).
+datesummarized: !timestamp 2008-09-02T20:02:49-0700
+guid: 2bb0f4f9e310a04b94973123cb353a34e343f21b
+title: Google Chrome
+uri: http://google.com/googlebooks/chrome/
+worthwhile: true

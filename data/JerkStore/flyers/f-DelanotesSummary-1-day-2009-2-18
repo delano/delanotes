@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2009-02-18T05:59:18-0800
+offset: 
+products: 
+- :title: The Ultimate Website Launch Checklist
+  :datesummarized: !timestamp 2009-02-18T05:59:18-0800
+  :worthwhile: true
+  :uri: http://boxuk.com/blog/the-ultimate-website-launch-checklist
+  :biasedsummary: Perhaps not the "ultimate" pre-launch checklist, but thoroughly worthwhile.
+  :guid: f9191208ac2bb26acdb2960d57f469b1b1c6b99d
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 1

@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2009-03-26T11:27:06-0700
+offset: 
+products: 
+- :title: Herren-Schuhe Germina Classics
+  :datesummarized: !timestamp 2009-03-26T11:27:06-0700
+  :worthwhile: true
+  :uri: http://lace-up.de/herren-schuhe-germina-classics.html
+  :biasedsummary: "The best socialist footwear money can buy. "
+  :guid: 6d445291f702455bfa8060b0a1f8bf93ad61f2ed
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 1

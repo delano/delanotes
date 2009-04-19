@@ -1,0 +1,76 @@
+#!/usr/bin/env ruby
+
+# A conversion script for Delanotes
+# MySQL csv -> JerkStore YAML
+$: << File.expand_path(File.dirname(__FILE__) + "/../vendor/sinatra/lib")
+$: << File.expand_path(File.dirname(__FILE__) + "/../vendor/rack/lib")
+$: << File.expand_path(File.dirname(__FILE__) + "/../vendor")
+$: << File.expand_path(File.dirname(__FILE__) + "/../lib")
+$: << File.expand_path(File.dirname(__FILE__) + "/../lib/delanotes")
+
+#require 'csv'
+
+#require 'delanotes'
+require 'jerkstore'
+require 'summary'
+require 'flyers'
+require 'httputil'
+require 'pp'
+require 'yaml'
+
+FIELDS = [ :id, :datesummarized, :biasedsummary, :biasedperson, :title, :uri, :worthwhile, :author ]
+
+JerkStore.set_root(File.expand_path(File.join(File.dirname(__FILE__), "../data/JerkStore")))
+
+def convert_file(filepath)
+  JerkStore.add_flyer(:summaries1day, Delanotes::SummariesFlyer.create({:classtype => 'Delanotes::Summary', :timespan=>'day', :duration => 1}))
+  
+  JerkStore.add_flyer(:summaries1week, Delanotes::SummariesFlyer.create({:classtype => 'Delanotes::Summary', :timespan=>'week', :duration => 1}))
+  
+  JerkStore.add_flyer(:summaries1month, Delanotes::SummariesFlyer.create({:classtype => 'Delanotes::Summary', :timespan=>'month', :duration => 1}))
+    
+  #CSV::Reader.parse(File.open(f, 'rb')) do |row|
+  #  p row
+  #  break if !row[0]
+  #end
+  #CSV::IOReader.new(open(f),"\t").each do |thing|
+  #puts "HERE: " + thing[0]
+  #end
+  summary = nil
+  flyers = JerkStore.get_flyers
+  File.open(filepath).each do |record|
+    args = {}
+    
+    i = -1
+    record.split("\t").each do |v|
+       v.chomp!
+       n = FIELDS[i+=1] 
+       
+       
+       v = (v.eql?('1')) if (n.eql?(:worthwhile))
+       v = "" if (n.eql?('author') && v.eql?(:nil))
+       v = DateTime.parse(v) if (n.eql?(:datesummarized))
+       
+       
+       args[ n ] = v 
+    end
+    
+    
+    summary = Delanotes::Summary.new(args)
+    summary.save
+    JerkStore.update_flyers(summary, false)
+    puts pp(summary)
+    #break
+  end
+  JerkStore.save_flyers
+  
+  
+end
+
+
+ARGV.each do|a|
+  puts "Looking at: #{a}"
+  raise "That file doesn't exist!" unless(File.file?(a))
+  convert_file(a) 
+end
+

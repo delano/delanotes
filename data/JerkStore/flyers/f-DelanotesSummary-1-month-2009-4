@@ -1,0 +1,35 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 3
+duration: 1
+notworthycount: 0
+now: !timestamp 2009-04-15T05:46:11-0700
+offset: 
+products: 
+- :title: Stavros Flatley - Dancers - Britains Got Talent 2009 Audition [video]
+  :datesummarized: !timestamp 2009-04-15T05:46:11-0700
+  :worthwhile: true
+  :uri: http://youtube.com/watch?v=Q4fPHt0FjEU
+  :biasedsummary: "Before I watched this video, I thought no one could ever top Michael Flatley. Not even Colin Dunne. I was wrong!"
+  :guid: 8df3814c2942b1b2ebdeb3984bb2345057b206d9
+  :author: ""
+  :biasedperson: delano
+- :title: Why "require 'rubygems'" In Your Library/App/Tests Is Wrong
+  :datesummarized: 2009-05-09 00:58:18 -07:00
+  :worthwhile: true
+  :uri: http://gist.github.com/54177
+  :biasedsummary: "\"When you \"require 'rubygems'\" in your code, you remove my ability to make that decision. I cannot unrequire rubygems, but you can not require it in the first place\""
+  :guid: 01d63c47e226855ea34868fefd30d3dc039a736f
+  :author: Ryan Tomayko
+  :biasedperson: delano
+- :title: "High Technology Innovation: Free Markets or Government Subsidies?"
+  :datesummarized: 2009-04-30 11:40:04 -07:00
+  :worthwhile: true
+  :uri: http://app.cypress.com/portal/server.pt?CommunityID=201&DirectoryID=204370&PageID=344&control=SetCommunity&space=CommunityPage
+  :biasedsummary: A long presentation from 1993 by the CEO of Cypress Semiconductor. He makes a persuasive argument.
+  :guid: 44364ed5ea84dcee521cf6d9b5169c2a95fbbb55
+  :author: T.J. Rogers
+  :biasedperson: delano
+readonly: false
+timespan: month
+worthycount: 3

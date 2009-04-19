@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: Paul Graham
+biasedperson: delano
+biasedsummary: "The new education. Recording and playback of all keystrokes. "
+datesummarized: !timestamp 2009-03-06T22:19:10-0800
+guid: e161aa81ffcc7babde38687a924de6a1d21b070d
+title: Text Playback of Paul Graham's "Startups in 13 Sentences"
+uri: http://etherpad.com/ep/pad/slider/13sentences
+worthwhile: true

@@ -1,0 +1,27 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 2
+duration: 1
+notworthycount: 1
+now: !timestamp 2009-02-17T14:28:14-0800
+offset: 
+products: 
+- :title: How To Think About Compression
+  :datesummarized: !timestamp 2009-02-17T14:28:14-0800
+  :worthwhile: false
+  :uri: http://changelog.complete.org/archives/910-how-to-think-about-compression
+  :biasedsummary: gzip is best for general usage. lzma has better compression than bzip2 and it's faster (but only half the speed of gzip).
+  :guid: 2749d0ed841748ea3dd90eef1d5dcca7c74b5c99
+  :author: ""
+  :biasedperson: delano
+- :title: What is Qualia
+  :datesummarized: 2009-03-22 14:07:01 -07:00
+  :worthwhile: true
+  :uri: http://biotele.com/qualia.htm
+  :biasedsummary: "Some crazy stuff your brain does with colour. "
+  :guid: 820e06d2c64609dda9b79a292f2e03025bab64fc
+  :author: ""
+  :biasedperson: delano
+readonly: false
+timespan: day
+worthycount: 1

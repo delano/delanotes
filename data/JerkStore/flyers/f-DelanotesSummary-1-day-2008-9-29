@@ -1,0 +1,35 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 3
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-09-29T14:50:56-0700
+offset: 
+products: 
+- :uri: http://google.com/googlegroups/archive_announce_20.html
+  :biasedsummary: "Reading through posts about obsolete technologies and world affairs gone by is a cool way to learn about how people interact and share knowledge. It's easier to stay objective when you're reading about stuff that has long been said and done. "
+  :guid: c738703c809b91a6bb5fc24a5cc5a565a2512ca6
+  :biasedperson: delano
+  :title: 20 Year Usenet Archive on Google Groups
+  :datesummarized: !timestamp 2008-09-29T14:50:56-0700
+  :worthwhile: true
+  :author: ""
+- :uri: http://huffingtonpost.com/adam-fendelman/why-i-dont-owe-godaddy-65_b_129276.html
+  :biasedsummary: "A convoluted company crosses paths with a guy that doesn't really know what he's doing. Hilarity ensues. "
+  :guid: c87b7163e95288ca8a709189e0123327500c8750
+  :biasedperson: delano
+  :title: Why I Don't Owe GoDaddy $6,579.51 (or $969)
+  :datesummarized: 2008-10-28 11:38:24 -07:00
+  :worthwhile: false
+  :author: Adam Fendelman
+- :uri: http://sfgate.com/cgi-bin/article.cgi?f=/g/a/2008/09/29/onthejob.DTL
+  :biasedsummary: "Flickr has learned that developing guidelines for large and diverse online communities is similar to developing guidelines for offline ones. It's complicated. "
+  :guid: 7cbb9c8f9e52411c361742d1b31e41421392c0cd
+  :biasedperson: delano
+  :title: Nasty as they wanna be? Policing Flickr.com
+  :datesummarized: 2008-10-28 11:30:49 -07:00
+  :worthwhile: true
+  :author: Chris Colin
+readonly: false
+timespan: day
+worthycount: 2

@@ -1,0 +1,19 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 1
+duration: 1
+notworthycount: 0
+now: !timestamp 2008-10-02T13:59:50-0700
+offset: 
+products: 
+- :uri: http://natwilson.com/stuff/whistle.html
+  :biasedsummary: This tutorial is fun and could be a life saver!
+  :guid: 5ad27609713353eb47b92281f397eeb0b9ec9dd5
+  :biasedperson: delano
+  :title: How To Whistle Loudly
+  :datesummarized: !timestamp 2008-10-02T13:59:50-0700
+  :worthwhile: true
+  :author: ""
+readonly: false
+timespan: day
+worthycount: 1

@@ -1,0 +1,9 @@
+--- !ruby/object:Delanotes::Summary 
+author: Bruce Schneier
+biasedperson: delano
+biasedsummary: It might be possible to create fake identities by registering babies that don't exist.
+datesummarized: !timestamp 2008-09-04T16:29:09-0700
+guid: 2206f994b503d4a91edac9a8e7092d7b25cb544e
+title: "Security Matters: How to Create the Perfect Fake Identity "
+uri: http://wired.com/politics/security/commentary/securitymatters/2008/09/securitymatters_0904
+worthwhile: false

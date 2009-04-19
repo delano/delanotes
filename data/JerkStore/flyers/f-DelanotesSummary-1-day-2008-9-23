@@ -1,0 +1,35 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 3
+duration: 1
+notworthycount: 1
+now: !timestamp 2008-09-23T22:59:32-0700
+offset: 
+products: 
+- :uri: http://damncoolpics.blogspot.com/2008/09/oktoberfest-2008-in-munich.html
+  :biasedsummary: "Germans know how to party. "
+  :guid: 0651c7b16a76f2345ef06b094d0c4c9bcb7e6f2d
+  :biasedperson: delano
+  :title: Oktoberfest 2008 in Munich [images]
+  :datesummarized: !timestamp 2008-09-23T22:59:32-0700
+  :worthwhile: true
+  :author: ""
+- :uri: http://en.wikipedia.org/wiki/Cognitive_biases
+  :biasedsummary: It's my great hope that Delanotes can offer examples of all of these!
+  :guid: 2a8044e7fb9f143a33771d19954680c093a8cf09
+  :biasedperson: delano
+  :title: List of cognitive biases
+  :datesummarized: 2008-10-22 15:18:02 -07:00
+  :worthwhile: true
+  :author: ""
+- :uri: http://sidsavara.com/personal-productivity/the-price-of-my-dreams-60-a-week
+  :biasedsummary: "Find someone on Craigslist to help cook meals. Old news. Just another time-sink productivity site. "
+  :guid: 0d03ac0649b701a28e1133067c6a403257a7f293
+  :biasedperson: delano
+  :title: The Price of my Dreams - $60 a Week
+  :datesummarized: 2008-10-22 13:44:06 -07:00
+  :worthwhile: false
+  :author: ""
+readonly: false
+timespan: day
+worthycount: 2

@@ -1,0 +1,11 @@
+--- !ruby/object:Delanotes::Summary 
+author: Patrick Thomson
+biasedperson: delano
+biasedsummary: "There's a debate raging over the \"best\"  distributed version control system. Git is a messy collection of individual tools (played by MacGyver) and Mercurial is a  sexy, monolithic tool (played by James Bond). Conclusion: Shut up about the tools you use and write some code. [ed: there are also other DVCSs] "
+datesummarized: 2008-08-08T10:51:36+00:00
+guid: 3c9ef4796e608d2136997153afd1475aba0a1f7e
+seed: http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/
+shelf: importantshock.wordpress.com
+title: "Git vs. Mercurial: Please Relax"
+uri: http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/
+worthwhile: true

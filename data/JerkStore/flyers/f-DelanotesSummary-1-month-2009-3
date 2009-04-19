@@ -1,0 +1,155 @@
+--- !ruby/object:Delanotes::SummariesFlyer 
+classtype: Delanotes::Summary
+count: 18
+duration: 1
+notworthycount: 2
+now: !timestamp 2009-03-30T19:33:20-0700
+offset: 
+products: 
+- :title: Parkinson's Law (idea)
+  :datesummarized: !timestamp 2009-03-30T19:33:20-0700
+  :uri: http://everything2.com/index.pl?node_id=740233&displaytype=printable
+  :biasedsummary: "Parkinson's Law of Delay: Delay is the deadliest form of denial."
+  :guid: cb179cb704067f4d7b3c586b6eafbbb0fc5a3809
+  :biasedperson: delano
+  :author: Cyril Northcote Parkinson
+  :worthwhile: true
+- :title: Herren-Schuhe Germina Classics
+  :datesummarized: 2009-04-24 08:27:06 -07:00
+  :uri: http://lace-up.de/herren-schuhe-germina-classics.html
+  :biasedsummary: "The best socialist footwear money can buy. "
+  :guid: 6d445291f702455bfa8060b0a1f8bf93ad61f2ed
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: Seeds, Plants, Bulbs, and Accessories | Harris Seeds
+  :datesummarized: 2009-04-12 21:44:03 -07:00
+  :uri: http://harrisseeds.com/
+  :biasedsummary: Buy heirloom seeds from these people.
+  :guid: 8c0e49bc424d4b7758a6dddf35dfdfe45099d537
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: Attacked from Within || kuro5hin.org
+  :datesummarized: 2009-04-11 22:11:10 -07:00
+  :uri: http://kuro5hin.org/story/2009/3/12/33338/3000
+  :biasedsummary: "A look at the Eternal September and some ideas about what can be done about it:  \"Traditional methods for protecting community from the effects of scale and poor behavior are now manifestly unfeasible.\""
+  :guid: e91fc53d1fc686c4baa9703202c34627427868cd
+  :biasedperson: delano
+  :author: anaesthetica
+  :worthwhile: true
+- :title: Why is there Anti-Intellectualism?
+  :datesummarized: 2009-04-10 12:58:58 -07:00
+  :uri: http://uwgb.edu/dutchs/PSEUDOSC/WhyAntiInt.htm
+  :biasedsummary: What evidence would it take to prove your beliefs wrong?
+  :guid: 692bbb2caac79b4406271d1354e18625ae15f46e
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: Gottfried Leibniz - Wikipedia, the free encyclopedia
+  :datesummarized: 2009-04-10 09:53:57 -07:00
+  :uri: http://en.wikipedia.org/wiki/Gottfried_Leibniz
+  :biasedsummary: "A wack, smart geezer. "
+  :guid: 7cea92caca7fbf2c1fc0cbea34e975e73ea2c125
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: "Starting up with a\xC2\xA0friend"
+  :datesummarized: 2009-04-09 01:49:13 -07:00
+  :uri: http://danieltenner.com/posts/0005-starting-up-with-a-friend.html
+  :biasedsummary: "Be explicit and detailed. Write it down. Talk about the bad stuff. Be realistic about major problems. Don't assume things will get better over time. "
+  :guid: 980621a7e65fad4e36030112de479f4209be1ab9
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: "CBC Archives: Just Watch Me, 1970 [video]"
+  :datesummarized: 2009-04-09 00:37:48 -07:00
+  :uri: http://youtube.com/watch?v=XfUq9b1XTa0&playnext_from=PL&feature=PlayList&p=F775BB96C7F18C1A&playnext=1&index=34
+  :biasedsummary: "Pierre Trudeau: \"Just watch me\", the full interview."
+  :guid: df78e9814ff78901a1b33d5372f4c3b03b681841
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: "Accounting for Clouds: Stop Saying CapEx Vs. OpEx"
+  :datesummarized: 2009-04-09 06:14:39 -07:00
+  :uri: http://gevaperry.typepad.com/main/2009/01/accounting-for-clouds-stop-saying-capex-vs-opex.html
+  :biasedsummary: "CapEx and OpEx are being used to describe upfront payments vs payments over time and regardless one is not necessarily preferable over the other. "
+  :guid: 0ebb1a74f78a63c21dfdfda5a2c40836151979a2
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: Coffee turns into vapor at -48F in Prudhoe Bay, Alaska [video]
+  :datesummarized: 2009-04-08 23:46:48 -07:00
+  :uri: http://youtube.com/watch?v=tfMBXVsjJYY
+  :biasedsummary: "I was expecting the vapor cloud to be brown. "
+  :guid: 754acbb5a54b2c1979c7282f4b5e173698524ad4
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: false
+- :title: Weird Al with no facial hair
+  :datesummarized: 2009-04-08 23:37:20 -07:00
+  :uri: http://farm4.static.flickr.com/3351/3334104777_bf09f088d0.jpg
+  :biasedsummary: Weird Al has been hiding all these years.
+  :guid: 762dbf28c430223e30dfe46c3f46de023b787f76
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: false
+- :title: CPAN (Comprehensive Perl Archive Network)
+  :datesummarized: 2009-04-08 23:32:07 -07:00
+  :uri: http://search.cpan.org/
+  :biasedsummary: "Lest we forget. "
+  :guid: 579280348a459b2d3039cc4a618ee2a60df39e16
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: Daily Routines
+  :datesummarized: 2009-04-08 23:27:48 -07:00
+  :uri: http://dailyroutines.typepad.com/
+  :biasedsummary: "An ongoing look at the daily routines of writers. W. H. Auden took amphetamines. "
+  :guid: 97e11e8c6ab133f8d13e8d19811c21ff03ecf697
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: A4 vs US Letter
+  :datesummarized: 2009-04-08 23:23:30 -07:00
+  :uri: http://betweenborders.com/wordsmithing/a4-vs-us-letter/
+  :biasedsummary: I never realized paper sizes could be interesting. The A-series is particularly rad. Ask for it by name!
+  :guid: 17f5a9bcfee20ab667d3e6446047e4885fac36f5
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: Warren Buffet's Letter to Investors, 2009
+  :datesummarized: 2009-04-08 23:20:43 -07:00
+  :uri: http://berkshirehathaway.com/letters/2008ltr.pdf
+  :biasedsummary: Warren Buffet made some mistakes in 2009 and the general outlook for the year is rough. However, there are some good deals which makes him and Charlie happy.
+  :guid: 342878d4b4eba52db50e35cb9e88c353ca161db8
+  :biasedperson: delano
+  :author: Warren Buffet
+  :worthwhile: true
+- :title: Text Playback of Paul Graham's "Startups in 13 Sentences"
+  :datesummarized: 2009-04-08 23:19:10 -07:00
+  :uri: http://etherpad.com/ep/pad/slider/13sentences
+  :biasedsummary: "The new education. Recording and playback of all keystrokes. "
+  :guid: e161aa81ffcc7babde38687a924de6a1d21b070d
+  :biasedperson: delano
+  :author: Paul Graham
+  :worthwhile: true
+- :title: New wing invented in Belarus. Look for the pictures.
+  :datesummarized: 2009-04-08 23:16:45 -07:00
+  :uri: http://news.ycombinator.com/item?id=502936
+  :biasedsummary: Discussion about closed wings and a link to pictures of a new one built in Belarus.
+  :guid: 39c430507fb021273327126615b9daca63ba4223
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+- :title: In search of the click track
+  :datesummarized: 2009-04-07 15:49:20 -07:00
+  :uri: http://musicmachinery.com/2009/03/02/in-search-of-the-click-track/?rss
+  :biasedsummary: "Click track detection with Python and Gnuplot. "
+  :guid: fe16cf9d4166fa60a5c4c74d8cd5111ce530bcb0
+  :biasedperson: delano
+  :author: ""
+  :worthwhile: true
+readonly: false
+timespan: month
+worthycount: 16
