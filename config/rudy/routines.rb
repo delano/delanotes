@@ -22,9 +22,11 @@ routines do
       # configuration for release. 
       release stage.app.startup
       release do
-        #git do
-          
-        #end
+        git do
+          command :checkout
+          #base "http://rilli.unfuddle.com/svn/rilli_rilli/tags" 
+          path "/mnt/delanotes"
+        end
       end
       
       # This routine will be executed when you run "rudy shutdown"
