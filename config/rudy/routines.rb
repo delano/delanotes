@@ -15,23 +15,32 @@ routines do
         end
         # You can execute a shell command on each instance after
         # it's created. This touch command will run as root.
-        after :root => "touch /rudy/disk1/rudy-was-here"
+        after :root do 
+          touch "/rudy/disk1/rudy-was-here"
+        end
       end
       
       # Copy the startup routine for release. Then we'll add additional
       # configuration for release. 
-      release stage.app.startup
+      #release stage.app.startup
       release do
+        #authorize :delano
+        before :root do
+          #rm :f, :r, '/mnt/delanotes'
+          #df :h
+          touch '/poop'
+          cd '/'
+          ls
+        end
         git do
-          command :checkout
-          #base "http://rilli.unfuddle.com/svn/rilli_rilli/tags" 
+          remote :origin
           path "/mnt/delanotes"
         end
       end
       
       # This routine will be executed when you run "rudy shutdown"
       shutdown do
-        before :root => '/a/nonexistent/script'
+        #before :root => '/a/nonexistent/script'
         disks do
           # Rudy unmounts the EBS volume and deletes it. Careful! 
           #destroy "/rudy/disk1"
