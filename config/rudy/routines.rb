@@ -28,11 +28,11 @@ routines do
         before :root do
           #rm :f, :r, '/mnt/delanotes'
           #df :h
-          touch '/poop'
-          cd '/'
-          ls
+          #touch 'home-poop'
+          #upload "/Users/delano/.ssh/git-delano_rsa", "~/.ssh"
         end
-        git do
+        git :delano do
+          privatekey '/Users/delano/.ssh/git-delano_rsa'
           remote :origin
           path "/mnt/delanotes"
         end
