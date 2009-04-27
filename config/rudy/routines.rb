@@ -24,7 +24,9 @@ routines do
       # configuration for release. 
       #release stage.app.startup
       release do
-        #authorize :delano
+        authorize :delano
+        adduser :delano
+        
         before :root do
           #rm :f, :r, '/mnt/delanotes'
           #df :h

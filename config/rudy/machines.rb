@@ -15,6 +15,7 @@ machines do
   zone :"eu-west-1b" do
     ami 'ami-e40f2790'    # Amazon Getting Started AMI (EU)
   end
+  
 
   # We've defined an environment called "stage" with one role: "app". 
   # The configuration inside the env block is available to all its 
