@@ -29,7 +29,7 @@ routines do
         #end
         git :delano do
           privatekey '/Users/delano/.ssh/git-delano_rsa'
-          remote :origin
+          remote :heroku
           path "/mnt/delanotes"
         end
       end
