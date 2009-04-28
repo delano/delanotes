@@ -1,5 +1,5 @@
 require 'digest/sha1'
-require 'ftools'
+
 
 module JerkStore
   # JerkStore::Objects is  implements disk-based directory containing  
