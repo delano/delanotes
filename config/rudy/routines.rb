@@ -7,16 +7,13 @@ routines do
     role :app do
       
       # This routine will be executed when you run "rudy startup"
-      startup do        
+      startup do      
+        adduser :delano
+        authorize :delano  
         disks do
           # Rudy creates an EBS volume for each instance, attaches
           # it, gives it a filesystem, and mounts it. 
           #create "/rudy/disk1"
-        end
-        # You can execute a shell command on each instance after
-        # it's created. This touch command will run as root.
-        after :root do 
-          touch "/rudy/disk1/rudy-was-here"
         end
       end
       
@@ -24,15 +21,12 @@ routines do
       # configuration for release. 
       #release stage.app.startup
       release do
-        authorize :delano
-        adduser :delano
-        
-        before :root do
+        #before :root do
           #rm :f, :r, '/mnt/delanotes'
           #df :h
           #touch 'home-poop'
           #upload "/Users/delano/.ssh/git-delano_rsa", "~/.ssh"
-        end
+        #end
         git :delano do
           privatekey '/Users/delano/.ssh/git-delano_rsa'
           remote :origin
