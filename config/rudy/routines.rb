@@ -28,7 +28,7 @@ routines do
           #upload "/Users/delano/.ssh/git-delano_rsa", "~/.ssh"
         #end
         git :delano do
-          privatekey '/Users/delano/.ssh/git-delano_rsa'
+          privatekey '/Users/delano/.ssh/id_rsa'
           remote :heroku
           path "/mnt/delanotes"
         end
