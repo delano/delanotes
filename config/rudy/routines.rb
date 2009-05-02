@@ -34,7 +34,7 @@ routines do
       create "/rudy/disk1"
     end
     after :delano do
-      ps 'aux'
+      #ps 'aux'
     end
   end
   
@@ -62,12 +62,30 @@ routines do
   
   #release stage.app.startup      # Copy the startup routine
   release do
-    #git :delano do
-    #  privatekey '/Users/delano/.ssh/git-delano_rsa'
-    #  remote :origin
-    #  path "/rudy/disk1/app/delanotes"
-    #end
+    #changes :enforce
+    git :delano do
+      privatekey '/Users/delano/.ssh/git-delano_rsa'
+      remote :origin
+      path "/rudy/disk1/app/delanotes"
+    end
     after :delano do
+      start_delanotes
+    end
+  end
+  
+  rerelease do
+    git :delano do
+      remote :origin
+      path "/rudy/disk1/app/delanotes"
+    end
+    after :delano do
+      start_delanotes
+    end
+  end
+  
+  restart do
+    after :delano do
+      cd "/rudy/disk1/app/delanotes"
       start_delanotes
     end
   end
