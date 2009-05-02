@@ -14,7 +14,7 @@ machines do
   # roles. The configuration inside the role blocks is available only
   # to machines in that specific role. 
   env :stage do
-    ami "ami-5394733a"    # ec2onrails/ec2onrails-v0_9_9_1-i386.manifest.xml
+    ami "ami-e348af8a"   # Debian 5.0 32-bit, Alestic
     size 'm1.small'
     
     # see: http://www.cubiclemuses.com/cm/articles/2009/04/09/rails-passenger-open-solaris-ec2/

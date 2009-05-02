@@ -2,8 +2,6 @@
 
 # Uncomment the vendor copy of Sinatra to use the gem version (the
 # git copy of sinatra is located in the vendor directory)
-$: << File.expand_path(File.dirname(__FILE__) + "/vendor/sinatra/lib")
-$: << File.expand_path(File.dirname(__FILE__) + "/vendor/rack/lib")
 $: << File.expand_path(File.dirname(__FILE__) + "/vendor")
 $: << File.expand_path(File.dirname(__FILE__) + "/lib")
 $: << File.expand_path(File.dirname(__FILE__) + "/lib/delanotes")

@@ -38,21 +38,26 @@ routines do
     end
   end
   
-  sysupdate do                       # $ rudy sysupdate
+  sysupdate do
     before :root do                  
       apt_get "update"               
       apt_get "install", "build-essential", "sqlite3", "libsqlite3-dev"
+      apt_get "install", "ruby1.8-dev", "rubygems"
       apt_get "install", "apache2-prefork-dev", "libapr1-dev"
+      gem_sources :a, "http://gems.github.com"
       gem_install 'rudy'
-      
     end
   end
   
   installdeps do
     before :root do
-      gem_install "passenger", "rack", "thin", "sinatra", "rails"
-      passenger_install
+      gem_install "rack", "thin", "sinatra-sinatra", "rails"
     end
+  end
+  
+  installpassenger do
+    gem_install "passenger"
+    passenger_install
   end
   
   authorize do
