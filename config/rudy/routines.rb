@@ -63,7 +63,7 @@ routines do
   #release stage.app.startup      # Copy the startup routine
   release do
     git :delano do
-      privatekey '/Users/delano/.ssh/git-solutious-delano_rsa'
+      privatekey '/Users/delano/.ssh/git-delano_rsa'
       remote :origin
       path "/rudy/disk1/app/delanotes"
     end
