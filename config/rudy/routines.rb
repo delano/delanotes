@@ -64,7 +64,7 @@ routines do
   release do
     git :delano do
       privatekey '/Users/delano/.ssh/id_rsa'
-      remote :github
+      remote :origin
       path "/rudy/disk1/app/delanotes"
     end
     after :root do
