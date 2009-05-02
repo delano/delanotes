@@ -1,5 +1,6 @@
 
 
+
 # ----------------------------------------------------------- ROUTINES --------
 # The routines block describes the repeatable processes for each machine group.
 routines do
@@ -41,17 +42,23 @@ routines do
   sysupdate do
     before :root do                  
       apt_get "update"               
-      apt_get "install", "build-essential", "sqlite3", "libsqlite3-dev"
+      apt_get "install", "build-essential", "git-core"
+      apt_get "install", "sqlite3", "libsqlite3-dev"
       apt_get "install", "ruby1.8-dev", "rubygems"
       apt_get "install", "apache2-prefork-dev", "libapr1-dev"
+      apt_get "install", "libfcgi-dev", "libfcgi-ruby1.8"
       gem_sources :a, "http://gems.github.com"
-      gem_install 'rudy'
     end
   end
   
   installdeps do
     before :root do
-      gem_install "rack", "thin", "sinatra-sinatra", "rails"
+      gem_install "test-spec", "rspec", "camping", "fcgi", "memcache-client"
+      gem_install "mongrel"
+      gem_install 'ruby-openid', :v, "2.0.4" # thin requires 2.0
+      gem_install "rack", :v, "0.9.1"
+      gem_install "macournoyer-thin"         # need 1.1.0 which works with rack 0.9.1
+      gem_install "sinatra", "rails"
     end
   end
   
@@ -73,8 +80,8 @@ routines do
       remote :origin
       path "/rudy/disk1/app/delanotes"
     end
-    after :delano do
-      start_delanotes
+    after :root do
+      thin :c, "/rudy/disk1/app/delanotes/", "start"
     end
   end
   
@@ -90,8 +97,18 @@ routines do
   
   restart do
     after :delano do
-      cd "/rudy/disk1/app/delanotes"
-      start_delanotes
+      thin :c, "/rudy/disk1/app/delanotes/", "restart"
+    end
+  end
+  
+  start do
+    after :delano do
+      thin :c, "/rudy/disk1/app/delanotes/", "start"
+    end
+  end
+  stop do
+    after :delano do
+      thin :c, "/rudy/disk1/app/delanotes/", "stop"
     end
   end
   
