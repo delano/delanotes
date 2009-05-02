@@ -44,6 +44,7 @@ routines do
       apt_get "install", "build-essential", "sqlite3", "libsqlite3-dev"
       apt_get "install", "apache2-prefork-dev", "libapr1-dev"
       gem_install 'rudy'
+      start_delanotes "/rudy/disk1/app/delanotes/bin/start.sh"
     end
   end
   
@@ -63,11 +64,11 @@ routines do
   release do
     git :delano do
       privatekey '/Users/delano/.ssh/id_rsa'
-      remote :heroku
+      remote :github
       path "/rudy/disk1/app/delanotes"
     end
     after :root do
-      apache2ctl :restart
+      start_delanotes
     end
   end
 
