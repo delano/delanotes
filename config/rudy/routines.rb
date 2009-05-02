@@ -44,7 +44,7 @@ routines do
       apt_get "install", "build-essential", "sqlite3", "libsqlite3-dev"
       apt_get "install", "apache2-prefork-dev", "libapr1-dev"
       gem_install 'rudy'
-      start_delanotes "/rudy/disk1/app/delanotes/bin/start.sh"
+      
     end
   end
   
@@ -62,16 +62,16 @@ routines do
   
   #release stage.app.startup      # Copy the startup routine
   release do
-    git :delano do
-      privatekey '/Users/delano/.ssh/git-delano_rsa'
-      remote :origin
-      path "/rudy/disk1/app/delanotes"
-    end
-    after :root do
+    #git :delano do
+    #  privatekey '/Users/delano/.ssh/git-delano_rsa'
+    #  remote :origin
+    #  path "/rudy/disk1/app/delanotes"
+    #end
+    after :delano do
       start_delanotes
     end
   end
-
+  
   # This routine will be executed when you run "rudy shutdown"
   shutdown do
     disks do

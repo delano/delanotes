@@ -4,4 +4,5 @@ commands do
   allow :apt_get, "apt-get", :y, :q
   allow :passenger_install, "passenger-install-apache2-module", :a
   allow :apache2ctl
+  allow :start_delanotes, "/rudy/disk1/app/delanotes/bin/start.sh"
 end
