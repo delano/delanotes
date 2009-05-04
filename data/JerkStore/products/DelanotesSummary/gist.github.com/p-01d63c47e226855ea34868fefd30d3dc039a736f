@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: Ryan Tomayko
-biasedperson: delano
-biasedsummary: "\"When you \"require 'rubygems'\" in your code, you remove my ability to make that decision. I cannot unrequire rubygems, but you can not require it in the first place\""
-datesummarized: !timestamp 2009-04-10T03:58:18-0700
-guid: 01d63c47e226855ea34868fefd30d3dc039a736f
-title: Why "require 'rubygems'" In Your Library/App/Tests Is Wrong
-uri: http://gist.github.com/54177
-worthwhile: true

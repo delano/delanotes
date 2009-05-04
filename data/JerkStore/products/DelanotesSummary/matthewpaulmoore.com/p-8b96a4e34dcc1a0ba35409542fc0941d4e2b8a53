@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: Be prepared to learn another world not unlike Riven when you embark on Rails.
-datesummarized: !timestamp 2008-09-25T00:50:52-0700
-guid: 8b96a4e34dcc1a0ba35409542fc0941d4e2b8a53
-title: Ruby on Rails Code Quality Checklist
-uri: http://matthewpaulmoore.com/articles/1276-ruby-on-rails-code-quality-checklist
-worthwhile: false

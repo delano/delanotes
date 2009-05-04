@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: Poorly titled, insane details of threading in c++ (this is not basics).
-datesummarized: !timestamp 2008-12-13T14:25:31-0800
-guid: d1b947ef484387cf5be2ce5ac2c018e9180216b5
-title: Threads Basics
-uri: http://hpl.hp.com/personal/Hans_Boehm/c++mm/threadsintro.html
-worthwhile: false

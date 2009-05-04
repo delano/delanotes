@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: This is important. It tells you how to do donuts (safely).
-datesummarized: !timestamp 2008-10-22T17:34:52-0700
-guid: 155356df4c31d4f69f30553d8742c4a1488976d7
-title: Do Donuts
-uri: http://howto.wired.com/wiki/Do_Donuts
-worthwhile: true

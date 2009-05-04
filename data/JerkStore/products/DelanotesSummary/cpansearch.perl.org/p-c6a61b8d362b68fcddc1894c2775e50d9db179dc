@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: "My favourite perl module. See also: http://groups.google.com/groups?selm=a6ukat%24a4b%241%40plover.com"
-datesummarized: !timestamp 2009-01-13T21:33:35-0800
-guid: c6a61b8d362b68fcddc1894c2775e50d9db179dc
-title: Acme::MJD
-uri: http://cpansearch.perl.org/src/PODMASTER/Acme-MJD-0.02/lib/Acme/MJD.pm
-worthwhile: true

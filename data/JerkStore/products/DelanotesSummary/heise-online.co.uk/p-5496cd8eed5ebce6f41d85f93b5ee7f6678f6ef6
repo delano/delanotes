@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: Misleading. There's only 6.4 million lines of actual code (the rest are blank lines and comments).
-datesummarized: !timestamp 2008-10-22T17:37:27-0700
-guid: 5496cd8eed5ebce6f41d85f93b5ee7f6678f6ef6
-title: "Kernel Log: More than 10 million lines of Linux source files - "
-uri: http://heise-online.co.uk/open/Kernel-Log-More-than-10-million-lines-of-Linux-source-files--/news/111759
-worthwhile: false

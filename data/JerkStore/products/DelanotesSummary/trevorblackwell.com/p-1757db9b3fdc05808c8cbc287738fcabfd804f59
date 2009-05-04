@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: Use high-level languages to write clean and malleable software. Use low-level languages to waste time (while thinking about code).
-datesummarized: !timestamp 2008-09-04T18:53:25-0700
-guid: 1757db9b3fdc05808c8cbc287738fcabfd804f59
-title: The best qualities of high- and low-level languages
-uri: http://trevorblackwell.com/busywork.html
-worthwhile: false

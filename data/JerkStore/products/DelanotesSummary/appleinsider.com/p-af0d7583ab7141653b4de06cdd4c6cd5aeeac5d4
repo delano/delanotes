@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: "Windows XP and Vista cannot support more than 4GB of RAM. Depending on a variety of factors the upper limit can be reduced only 2.3GB. OS X supports up to 8GB. "
-datesummarized: !timestamp 2008-09-03T08:04:00-0700
-guid: af0d7583ab7141653b4de06cdd4c6cd5aeeac5d4
-title: "Road to Mac OS X Snow Leopard: 64-bits, Santa Rosa, and more"
-uri: http://appleinsider.com/articles/08/09/03/road_to_mac_os_x_snow_leopard_64_bits_santa_rosa_and_the_great_pc_swindle.html
-worthwhile: false

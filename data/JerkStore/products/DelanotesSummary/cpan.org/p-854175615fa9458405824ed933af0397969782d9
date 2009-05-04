@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: "A small slice of perl history. "
-datesummarized: !timestamp 2009-01-14T00:22:51-0800
-guid: 854175615fa9458405824ed933af0397969782d9
-title: Perl JAPHs
-uri: http://cpan.org/misc/japh
-worthwhile: true

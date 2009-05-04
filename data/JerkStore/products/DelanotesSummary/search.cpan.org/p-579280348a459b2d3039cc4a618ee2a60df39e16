@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: "Lest we forget. "
-datesummarized: !timestamp 2009-03-06T22:32:07-0800
-guid: 579280348a459b2d3039cc4a618ee2a60df39e16
-title: CPAN (Comprehensive Perl Archive Network)
-uri: http://search.cpan.org/
-worthwhile: true

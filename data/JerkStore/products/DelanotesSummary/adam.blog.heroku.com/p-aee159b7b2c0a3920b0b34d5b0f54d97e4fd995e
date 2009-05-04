@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: Consider your work so far to be "research." Write up a paragraph or two summarizing how you tried to solve the problem and why it didn't work. Put this into the ticket or an email or your personal notes, so that it's preserved for posterity. Then forget about it and move on to something else.
-datesummarized: !timestamp 2008-10-31T01:04:05-0700
-guid: aee159b7b2c0a3920b0b34d5b0f54d97e4fd995e
-title: Giving Up
-uri: http://adam.blog.heroku.com/past/2008/10/30/giving_up/
-worthwhile: true

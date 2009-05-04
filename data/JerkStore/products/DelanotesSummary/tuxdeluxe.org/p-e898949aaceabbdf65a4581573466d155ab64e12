@@ -1,9 +1,0 @@
---- !ruby/object:Delanotes::Summary 
-author: ""
-biasedperson: delano
-biasedsummary: "Seek out mentors and read other people's code. "
-datesummarized: !timestamp 2008-09-09T17:10:10-0700
-guid: e898949aaceabbdf65a4581573466d155ab64e12
-title: Learning the craft (of programming)
-uri: http://tuxdeluxe.org/node/285
-worthwhile: true
