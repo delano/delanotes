@@ -98,7 +98,7 @@ end
 # display new content form
 get '/delanonly/newcontent' do
   header 'Content-Type' => 'text/html; charset=utf-8'
-  login_required
+  #login_required
   
   begin
     @content = content_by_path(params[:uripath])
@@ -114,7 +114,7 @@ end
 # Create and save new content
 post '/delanonly/newcontent*' do
   header 'Content-Type' => 'text/html; charset=utf-8'
-  login_required
+  #login_required
   
   @content = PageContent.new(params)
   
@@ -142,7 +142,7 @@ end
 # display new delanote form
 get '/delanonly/newdelanote' do
   header 'Content-Type' => 'text/html; charset=utf-8'
-  login_required
+  #login_required
   
   layout :layout_delanonly
   
@@ -164,7 +164,7 @@ end
 # create new object and store it
 post '/delanonly/newdelanote' do
   header 'Content-Type' => 'text/html; charset=utf-8'
-  login_required
+  #login_required
   
   @summary = Summary.new(params)
   
