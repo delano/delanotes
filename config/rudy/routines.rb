@@ -50,7 +50,7 @@ routines do
   rerelease do
     before :root do
       thin :c, sinatra_home, "stop"
-      rm :r, :f sinatra_home
+      rm :r, :f, sinatra_home
     end
     git :delano do
       remote :origin
