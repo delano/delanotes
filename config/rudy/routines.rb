@@ -63,6 +63,7 @@ routines do
   rerelease do
     before :root do
       thin :c, sinatra_home, "stop"
+      mv sinatra_home, "/tmp/"
     end
     git :delano do
       remote :origin
