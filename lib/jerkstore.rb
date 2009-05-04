@@ -76,9 +76,9 @@ module JerkStore
   
   def JerkStore.create_dir(dirpath)
     return if File.directory?(dirpath)
-    
+    require 'rye'
     STDERR.puts "Creating #{ dirpath }"
-    File.makedirs(dirpath, true)
+    Rye.shell(:mkdir, :p, dirpath)
   end
   
   def JerkStore.write_file(path, content = '', flush = true)
