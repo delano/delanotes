@@ -1,7 +1,7 @@
 
 
 
-sinatra_home = "/rudy/disk1/sinatra"
+$sinatra_home = "/rudy/disk1/sinatra"
 routines do
   
   sysupdate do
@@ -40,24 +40,24 @@ routines do
       commit :ignore
       privatekey '/Users/delano/.ssh/git-delano_rsa'
       remote :origin
-      path sinatra_home
+      path $sinatra_home
     end
     after :root do
-      thin :c, sinatra_home, "start"
+      thin :c, $sinatra_home, "start"
     end
   end
   
   rerelease do
     before :root do
-      thin :c, sinatra_home, "stop"
-      rm :r, :f, sinatra_home
+      thin :c, $sinatra_home, "stop"
+      rm :r, :f, $sinatra_home
     end
     git :delano do
       remote :origin
-      path sinatra_home
+      path $sinatra_home
     end
     after :root do
-      thin :c, sinatra_home, "start"
+      thin :c, $sinatra_home, "start"
     end
   end
   
@@ -70,21 +70,24 @@ routines do
   
   restart do
     before :root do
-      thin :c, sinatra_home, "stop"
+      thin :c, $sinatra_home, "stop"
+    end
+    disks do
+      create "/rudy/disk1"
     end
     after :root do
-      thin :c, sinatra_home, "start"
+      thin :c, $sinatra_home, "start"
     end
   end
   
   start do
     script :root do
-      thin :c, sinatra_home, "start"
+      thin :c, $sinatra_home, "start"
     end
   end
   stop do
     script :root do
-      thin :c, sinatra_home, "stop"
+      thin :c, $sinatra_home, "stop"
     end
   end
   
