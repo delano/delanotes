@@ -1,6 +1,5 @@
 
 machines do
-
   env :stage do
     ami "ami-e348af8a"  # Debian 5.0 32-bit, Alestic
     size 'm1.small'
@@ -15,10 +14,10 @@ machines do
           device "/dev/sdr"
         end
       end
+      
     end
 
   end  
-  
 end
 
 

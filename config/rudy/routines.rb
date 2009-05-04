@@ -27,12 +27,6 @@ routines do
     end
   end
   
-  authorize do
-    adduser :rudy
-    authorize :rudy
-  end
-  
-  
   startup do      
     adduser :delano
     authorize :delano  
@@ -41,16 +35,9 @@ routines do
     end
   end
   
-  shutdown do
-    disks do
-      destroy "/rudy/disk1"
-    end
-  end
-
-  
   release do
     git :delano do
-      commit :enforce
+      commit :ignore
       privatekey '/Users/delano/.ssh/git-delano_rsa'
       remote :origin
       path sinatra_home
@@ -63,7 +50,7 @@ routines do
   rerelease do
     before :root do
       thin :c, sinatra_home, "stop"
-      mv sinatra_home, "/tmp/"
+      rm :r, :f sinatra_home
     end
     git :delano do
       remote :origin
@@ -73,6 +60,13 @@ routines do
       thin :c, sinatra_home, "start"
     end
   end
+  
+  shutdown do
+    disks do
+      destroy "/rudy/disk1"
+    end
+  end
+  
   
   restart do
     before :root do
@@ -92,6 +86,11 @@ routines do
     script :root do
       thin :c, sinatra_home, "stop"
     end
+  end
+  
+  authorize do
+    adduser :rudy
+    authorize :rudy
   end
   
   create_disk do; disks do; create "/rudy/disk1";  end; end
