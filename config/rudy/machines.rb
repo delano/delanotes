@@ -3,12 +3,6 @@
 # of your environments. 
 machines do
   
-  users do
-    # If you already have private keys for logging in to your EC2 instances
-    # EC2 instances you can specify them here and Rudy will use these instead.
-    # root :keypair => "/#{Rudy.sysinfo.home}/.rudy/root-private-key"
-  end
-  
   # We've defined an environment called "stage" with one role: "app". 
   # The configuration inside the env block is available to all its 
   # roles. The configuration inside the role blocks is available only
@@ -29,8 +23,7 @@ machines do
     end
     
     role :app do
-      positions 1
-      #addresses '11.22.33.44', '55.66.77.88'
+      #positions 2
     
       # You can define disks for the stage-app machines. Rudy uses 
       # this configuration when it executes a routine (see below).

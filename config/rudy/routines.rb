@@ -80,18 +80,21 @@ routines do
       remote :origin
       path "/rudy/disk1/app/delanotes"
     end
-    after :root do
+    after :delano do
       thin :c, "/rudy/disk1/app/delanotes/", "start"
     end
   end
   
   rerelease do
+    before :delano do
+      thin :c, "/rudy/disk1/app/delanotes/", "stop"
+    end
     git :delano do
       remote :origin
       path "/rudy/disk1/app/delanotes"
     end
     after :delano do
-      start_delanotes
+      thin :c, "/rudy/disk1/app/delanotes/", "start"
     end
   end
   
