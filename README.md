@@ -1,3 +1,3 @@
-#Delanotes.com#
+# Delanotes.com -- Legacy
 
-Hello Delano, this is your site!
+This project lives on in my memories of Toronto. 
